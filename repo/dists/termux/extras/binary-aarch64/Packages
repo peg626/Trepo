@@ -1,0 +1,1530 @@
+Package: attr
+Architecture: aarch64
+Installed-Size: 264
+Maintainer: @termux
+Version: 2.6.0
+Homepage: http://savannah.nongnu.org/projects/attr/
+Breaks: attr-dev
+Replaces: attr-dev
+Description: Utilities for manipulating filesystem extended attributes
+Filename: dists/termux/extras/binary-aarch64/attr_2.6.0_aarch64.deb
+Size: 56188
+MD5Sum: baf9aa7ca33427cdc413c2769280f092
+SHA1: e82a9aa8728158def52bb15ea112f45b33dd5695
+SHA256: 50a4d1238564a49985d398061ef61a0020348ddc84bd296e6450c5f0bdca2435
+SHA512: 663da6016bfd666cc5ca84c6b0550900d492b973748e12fa1b58f23680d6a7643de71c804708277472e5f9f7c0893b9f6d9797dc90da184aef2251c60ff01ac0
+
+Package: ffmpeg
+Architecture: aarch64
+Installed-Size: 36572
+Maintainer: @termux
+Version: 8.1.2-5
+Homepage: https://ffmpeg.org
+Breaks: ffmpeg-dev
+Depends: fontconfig, freetype, fribidi, game-music-emu, glslang, harfbuzz, libaom, libandroid-glob, libandroid-shmem, libandroid-stub, libass, libbluray, libbs2b, libbz2, libdav1d, libdvdnav, libdvdread, libiconv, libjxl, liblzma, libmysofa, libmp3lame, libopencore-amr, libopenmpt, libopus, libplacebo, librav1e, libsoxr, libsrt, libssh, libtheora, libv4l, libvidstab, libvmaf, libvo-amrwbenc, libvorbis, libvpx, libwebp, libx264, libx265, libxcb, libxml2, libzimg, libzmq, littlecms, ocl-icd, openssl, rubberband, svt-av1, vulkan-icd, xvidcore, zlib
+Conflicts: libav
+Replaces: ffmpeg-dev
+Description: Tools and libraries to manipulate a wide range of multimedia formats and protocols
+Filename: dists/termux/extras/binary-aarch64/ffmpeg_8.1.2-5_aarch64.deb
+Size: 10975628
+MD5Sum: 84d7dda2348d126185ea5e67b6138511
+SHA1: f075bb04454d8c18560906363f43f2f9dcd1f600
+SHA256: 1ec37f4f092521cb785e0ccfa2d82cc4a79ec8d2a4864f5eefc50a314f2d5dec
+SHA512: ee3829cf30382e650934658ac2a202472adae5f76282355e9c117099dc02b79d3f0790ece90967f920aa925d0d0740f202e8a685e203324c37a5c353c2c2103e
+
+Package: fftw
+Architecture: aarch64
+Installed-Size: 3412
+Maintainer: @termux
+Version: 3.3.11
+Homepage: http://www.fftw.org/
+Breaks: fftw-dev
+Replaces: fftw-dev
+Description: Library for computing the Discrete Fourier Transform (DFT) in one or more dimensions
+Filename: dists/termux/extras/binary-aarch64/fftw_3.3.11_aarch64.deb
+Size: 1004996
+MD5Sum: 14e12692b4eb6e485a81e02e06b789b2
+SHA1: 17222c051724664333ee5e6fa042a45553f2da0e
+SHA256: 0a5140986bbfc69dbfa8f939f78521fb3dc02a193b6c822b7218dae44d99ffd5
+SHA512: 87023b0a3f8cb00f12fdaf34db56be952f85c2dc6da27904eb5e48b1ac42dac250bb482b1a79c7157520e51dda1cbbe39849b445c9b6de5c3c0636e4bdfa6b14
+
+Package: fluidsynth
+Architecture: aarch64
+Installed-Size: 1732
+Maintainer: @termux
+Version: 2.6.0
+Homepage: https://github.com/FluidSynth/fluidsynth
+Depends: dbus, glib, libc++, libsndfile, pulseaudio, readline
+Description: Software synthesizer based on the SoundFont 2 specifications
+Filename: dists/termux/extras/binary-aarch64/fluidsynth_2.6.0_aarch64.deb
+Size: 490444
+MD5Sum: 018f6b1bc537b7b5db8877bcc3b770fe
+SHA1: a46c5573d4ba34378a516f306050cdcae56268a4
+SHA256: a1efae3de2f81ff3509588b3fe641d065ae8dba84fae9aa237e795b33d1b8fe0
+SHA512: 83017b0201ca4accd8ccc10a36f7700fdf704cff704bb9126d9372661cf8221e12e702d847b5630f42b9c54fb1e9b5b94a7c01b98becdecd283512e761cd93e4
+
+Package: fontconfig
+Architecture: aarch64
+Installed-Size: 888
+Maintainer: @termux
+Version: 2.18.3
+Homepage: https://www.freedesktop.org/wiki/Software/fontconfig/
+Breaks: fontconfig-dev
+Depends: freetype, libexpat, ttf-dejavu
+Replaces: fontconfig-dev
+Description: Library for configuring and customizing font access
+Filename: dists/termux/extras/binary-aarch64/fontconfig_2.18.3_aarch64.deb
+Size: 140288
+MD5Sum: 6d170fd9a548979de4e59d3ecd0981cb
+SHA1: e6ac303db7bc014c924b70eb596cb58038ce7155
+SHA256: 7f8b70dd7ca85b1e7cbb14a11e9e6bd4ce3189ab985aa7af51145484d85f2c61
+SHA512: db3515b1fb82d2a4f2964d9aa0ae78ce228bf516701dea41137ace66338d0bab8ed485f606802038e7147eae30454d6d1f9e2fd1148534bfabb4d4b28484e906
+
+Package: fribidi
+Architecture: aarch64
+Installed-Size: 444
+Maintainer: @termux
+Version: 1.0.16-1
+Homepage: https://github.com/fribidi/fribidi/
+Breaks: fribidi-dev
+Depends: glib
+Replaces: fribidi-dev
+Description: Implementation of the Unicode Bidirectional Algorithm
+Filename: dists/termux/extras/binary-aarch64/fribidi_1.0.16-1_aarch64.deb
+Size: 64408
+MD5Sum: a6587ded81b8a95bb784b019040b8de7
+SHA1: 80bee7876158e590ae411ca5a3b4ff519396deaa
+SHA256: a15369457781dbe0af15344d9d184f22ad5da4a7546f94c44c3614646d1f6904
+SHA512: eebc282aad67b901a2d9805b67d58210c901b90c16264f8415f9f66e79f66ba66893251ae954eb2550055dd917393017e812423623b8828126cac05a63c07cac
+
+Package: game-music-emu
+Architecture: aarch64
+Installed-Size: 380
+Maintainer: @termux
+Version: 0.6.5
+Homepage: https://bitbucket.org/mpyne/game-music-emu/wiki/Home
+Depends: libc++, zlib
+Description: A collection of video game music file emulators
+Filename: dists/termux/extras/binary-aarch64/game-music-emu_0.6.5_aarch64.deb
+Size: 127952
+MD5Sum: e7bffe74b67f29717f2a98899d144324
+SHA1: cc4b6ffaf3e8a72b15293aa5a54e6c0944ce5d57
+SHA256: ffe1c43919d485409b2459d462b2dc6389492afeea869aef701b391a4ed29c67
+SHA512: 2b183bae140a62103e030a763c9a332582ee8e2abb8891c3256c403fbb65e7e83081a5c3adf48cc7319dbc38996fcf5c57e5f507386dc4b9930fb0dd370ea577
+
+Package: gdk-pixbuf
+Architecture: aarch64
+Installed-Size: 960
+Maintainer: @termux
+Version: 2.44.8
+Homepage: https://wiki.gnome.org/Projects/GdkPixbuf
+Breaks: gdk-pixbuf-dev
+Depends: glib, libpng, libtiff, libjpeg-turbo, zstd
+Replaces: gdk-pixbuf-dev
+Description: Library for image loading and manipulation
+Filename: dists/termux/extras/binary-aarch64/gdk-pixbuf_2.44.8_aarch64.deb
+Size: 153228
+MD5Sum: 92245d9846ef847508643c158c54a14b
+SHA1: 252d5592efd8582b93557ffea434cfdf4eb71caf
+SHA256: 213da5186fc4ccca336ee7debf150c01c8de72ecb9575950d58f55e535267795
+SHA512: e6c2d462ac31d1468f5bd3d407e3a56505421e72d3dc835795b4233da6fd6e949de2dedd8c5f8a7dc9f90a8c8104a9f15c236f68ab47bb8bdf015aacd60e4826
+
+Package: glslang
+Architecture: aarch64
+Installed-Size: 16540
+Maintainer: @termux
+Version: 16.6.0
+Homepage: https://github.com/KhronosGroup/glslang
+Depends: libc++
+Description: OpenGL and OpenGL ES shader front end and validator
+Filename: dists/termux/extras/binary-aarch64/glslang_16.6.0_aarch64.deb
+Size: 2543452
+MD5Sum: 4c5030af50751a686544c7bb8bffef81
+SHA1: 4fd145deabc614d84829ab0f5c454930f270c196
+SHA256: c5b5d6cb57d5841966c4b07033d319ebf6a3df61347a484b9dc5e332d29cd721
+SHA512: d82d3b5a68bdf2094cb611b1499a633c2c47640d4cd36b4d95b5973c2cb1cfd3cbe0bc604ef600629a9f7724d6a8261d371a551fb372ffbb502803dbb3c39643
+
+Package: graphene
+Architecture: aarch64
+Installed-Size: 1940
+Maintainer: @termux
+Version: 1.10.8-3
+Homepage: https://ebassi.github.io/graphene/
+Breaks: gst-plugins-base (<< 1.20.3-1)
+Depends: glib
+Conflicts: gst-plugins-base (<< 1.20.3-1)
+Description: A thin layer of graphic data types
+Filename: dists/termux/extras/binary-aarch64/graphene_1.10.8-3_aarch64.deb
+Size: 191744
+MD5Sum: 2c142304a194c71c66489ac5843a7702
+SHA1: 6f20ce406838f50c34dc078320fee8c6df109f3b
+SHA256: 9b2ae32ab0a4b84f8804a6916fb4be884ccf27826e361aaffc4affbe023fc1c1
+SHA512: 2bc50468f5ded780e5d562c8108ccab7dfe4f1c14259200cfe4789aaa181b63bcb66952c8ce0b10388b3e3315843ea2de00975e6ec1e0717f771dacad315c45a
+
+Package: gst-plugins-base
+Architecture: aarch64
+Installed-Size: 12432
+Maintainer: @termux
+Version: 1.28.7
+Homepage: https://gstreamer.freedesktop.org/
+Breaks: gst-plugins-base-dev
+Depends: glib, graphene, gstreamer, libandroid-shmem, libjpeg-turbo, libogg, libopus, libpng, libtheora, libvorbis, libx11, libxcb, libxext, libxi, libxv, zlib
+Recommends: opengl
+Replaces: gst-plugins-base-dev
+Description: GStreamer base plug-ins
+Filename: dists/termux/extras/binary-aarch64/gst-plugins-base_1.28.7_aarch64.deb
+Size: 1996780
+MD5Sum: 24580beba0d68a0ad23a1c0718a74ffb
+SHA1: 0242aa1567aef7ea4e2c28fecd55c3fccb7b95fa
+SHA256: e8a1737598f22ecf8b180b4843b664c2608678f692e7f93fa48fd4e19da9944e
+SHA512: 23ed3a540966c13b5c058f4230831cded0ce67f5374ed4c0f03dcb016972dde0491bf408e2c14a7085098c496006831d4e784e67979378f443cb61d8e6d8f6fe
+
+Package: gstreamer
+Architecture: aarch64
+Installed-Size: 9576
+Maintainer: @termux
+Version: 1.28.7
+Homepage: https://gstreamer.freedesktop.org/
+Breaks: gstreamer-dev
+Depends: glib
+Replaces: gstreamer-dev
+Suggests: gst-plugins-base, gst-plugins-libav, gst-plugins-good, gst-plugins-bad, gst-plugins-ugly
+Description: Open source multimedia framework
+Filename: dists/termux/extras/binary-aarch64/gstreamer_1.28.7_aarch64.deb
+Size: 1345080
+MD5Sum: aaf00d5b6bf6722854d64af9931999b6
+SHA1: b7e38f8859b37a2443bc9587583a348c374f3f0b
+SHA256: 7c2ce326b3e96849b70098b2730b5d94b6e5dbf62883e9b80f59e3bc7a74fef4
+SHA512: 46a7f08532977f3858aebdc7d92247e0ba29b219bf7dc584881c85d65f9dfe7871dca99f49ecd9e80ccf85dc40de3ea3878845f036a6b35dce7664a0aae95d26
+
+Package: harfbuzz
+Architecture: aarch64
+Installed-Size: 5028
+Maintainer: @termux
+Version: 14.4.0
+Homepage: https://www.freedesktop.org/wiki/Software/HarfBuzz/
+Breaks: harfbuzz-dev
+Depends: freetype, glib, libcairo, libgraphite
+Replaces: harfbuzz-dev
+Description: OpenType text shaping engine
+Filename: dists/termux/extras/binary-aarch64/harfbuzz_14.4.0_aarch64.deb
+Size: 846936
+MD5Sum: d7acd3211c7525c0de872d3559060014
+SHA1: a3c3b50fa6144743e86a07a7fdc5b8c35d2b7388
+SHA256: 7f39fffee18a0956f65d2d3b8e86a36204829cf44f09d36c27d5e5177f36d360
+SHA512: bb0cd808ebd4d7408509c1d1462883ceafecb9c87310596d75eb58a1b2842502af676b235828b3eed6b1a007c114b957d82c1759c887e6f134a2ddaa87734121
+
+Package: highway
+Architecture: aarch64
+Installed-Size: 6564
+Maintainer: @termux
+Version: 1.4.0-1
+Homepage: https://github.com/google/highway
+Depends: libc++
+Conflicts: libjxl (<< 0.12.0-1)
+Description: Performance-portable, length-agnostic SIMD with runtime dispatch
+Filename: dists/termux/extras/binary-aarch64/highway_1.4.0-1_aarch64.deb
+Size: 682536
+MD5Sum: 27ab96beba36c614017e0a4232b3b12e
+SHA1: 911ca2ff0b84aba853034fe6dd1d7a3af4579c09
+SHA256: 71b8e0c231ab6b66827374543d55997a5cb02d8882f5d53e059ba78cd2511da1
+SHA512: 4c034362dda42479e921f0f9ab0dd786b3a076f7053356a47a97ff109486dd496e361ca6b60a976139c98a9f4bc34d2f29a2e7f357967a2e3e64e92f767a0145
+
+Package: imlib2
+Architecture: aarch64
+Installed-Size: 1300
+Maintainer: @termux
+Version: 1.12.7
+Homepage: https://sourceforge.net/projects/enlightenment/
+Depends: freetype, gdk-pixbuf, giflib, glib, libandroid-shmem, libbz2, libcairo, libheif, libid3tag, libjpeg-turbo, libjxl, liblzma, libpng, librsvg, libtiff, libwebp, libx11, libxcb, libxext, openjpeg, zlib
+Description: Library that does image file loading and saving as well as rendering, manipulation, arbitrary polygon support
+Filename: dists/termux/extras/binary-aarch64/imlib2_1.12.7_aarch64.deb
+Size: 512496
+MD5Sum: 0ce8aff78d711f007da10c2750193c1b
+SHA1: aaf4dccf1650be4944b0d67322d00d0b44cc8f41
+SHA256: badf2dd1911ac9c759f673b1a3a53b6ceefe848ebd62a5280108f2415938ad3c
+SHA512: 9f60e7baa04a0fc3c261a779fc22fa6af96d84f1e3db199ce6b4ddfb5ec5c84af1d12e0b20bd1bcd1fb49680f93d5fa07b639d59878e22d6519a739abe18e877
+
+Package: liba52
+Architecture: aarch64
+Installed-Size: 104
+Maintainer: @termux
+Version: 0.8.0-3
+Homepage: http://liba52.sourceforge.net/
+Description: A free library for decoding ATSC A/52 streams
+Filename: dists/termux/extras/binary-aarch64/liba52_0.8.0-3_aarch64.deb
+Size: 15448
+MD5Sum: 03ae4b3846dfc92e16c4b5a757cf875c
+SHA1: 45e45694f1b44100d4092d1c90a859eac6ab7841
+SHA256: ea6370e31719f651af79d278766126761713ef033ebb24b3baa8219dfaa960af
+SHA512: b8dbebb3a7e6fe439d616e360239558b47fa5f445fe74c81efd6c1382b1fb0bcc6b8ad15d105af75c3ef1034c2dc32cdfcd30277ab3b045a659ef0907dd66b65
+
+Package: libaom
+Architecture: aarch64
+Installed-Size: 7352
+Maintainer: @termux
+Version: 3.15.0
+Homepage: https://aomedia.org/
+Description: AV1 Video Codec Library
+Filename: dists/termux/extras/binary-aarch64/libaom_3.15.0_aarch64.deb
+Size: 2078308
+MD5Sum: 13d7a31b9565bb47e9892d115478d1ae
+SHA1: b61f4ada5d5318685eabf60ee1e2fe5d1d866063
+SHA256: f284096506dbdeb160ac09d803948b8fb3ad26535361776535ec43d87f185841
+SHA512: 0a70d431d758ce8f5d5366cd9a0dbfe05a5ea73159f332b9dca940ae0807eb624c74a77a2339da63fbb2c9e5075836a1cc7a49e2cd2f93326e0807746f957c76
+
+Package: libarchive
+Architecture: aarch64
+Installed-Size: 1040
+Maintainer: @termux
+Version: 3.8.9
+Homepage: https://www.libarchive.org/
+Breaks: libarchive-dev
+Depends: libbz2, libiconv, liblzma, libxml2, openssl, zlib
+Replaces: libarchive-dev
+Description: Multi-format archive and compression library
+Filename: dists/termux/extras/binary-aarch64/libarchive_3.8.9_aarch64.deb
+Size: 394808
+MD5Sum: 345a7dabaa2c6f1f6a04025a0b2d2764
+SHA1: 2236c6747bfe038f02b1b02e04d7c5e8f185911a
+SHA256: 3c1d06ebcfdb6ed8b2053ef36cbe003f088e931bd022d520de80e65a50291fba
+SHA512: f32946792c41cfa7d3285e32e74b3bb37ccff3a007c2a0628c6a660481a88146ee0809a609234e738c6562a268eb1a9f5a9c6e5c5a587284ddbcaeccae9be5b5
+
+Package: libass
+Architecture: aarch64
+Installed-Size: 280
+Maintainer: @termux
+Version: 0.17.5
+Homepage: https://github.com/libass/libass
+Breaks: libass-dev
+Depends: fontconfig, fribidi, glib, harfbuzz
+Replaces: libass-dev
+Description: A portable library for SSA/ASS subtitles rendering
+Filename: dists/termux/extras/binary-aarch64/libass_0.17.5_aarch64.deb
+Size: 85252
+MD5Sum: c08e6673448f2a109f2fd03b2c1d1246
+SHA1: eb9f2ef700065446d9849b75dd5b2da0a1651f59
+SHA256: 4f94205285ea2062be4f60e695723a6f3350339ec89720943b0dce5ae30db01d
+SHA512: 65d7490d53a17958e4c37cc1aefee48370ceb8e0bf1f64daf4c4a8cecf5f82679c30259312c8cc833b13889e46e74b5fdee9aca0bee66fca7bafd26c3ccb2ea1
+
+Package: libbluray
+Architecture: aarch64
+Installed-Size: 392
+Maintainer: @termux
+Version: 1.5.0
+Homepage: https://code.videolan.org/videolan/libbluray/
+Depends: fontconfig, freetype, libudfread, libxml2
+Description: An open-source library designed for Blu-Ray Discs playback for media players
+Filename: dists/termux/extras/binary-aarch64/libbluray_1.5.0_aarch64.deb
+Size: 110484
+MD5Sum: bcfae86edac8f3c0755f0fb260b3444d
+SHA1: ee38c228570e91a17ed865ed9816486ff831b81f
+SHA256: 8045df20cfb42de55c14990137391a0cb2f72fa709df672e86e0ebb6107fbf39
+SHA512: ba7e2b8b3891e734d155bc436c11e9e9f23041dae712f3ed551d99b6b604c2106d45a173abd629415fc91e71d7a7cb5ec00cf49401a0cbdca2454efb0296df6d
+
+Package: libbs2b
+Architecture: aarch64
+Installed-Size: 132
+Maintainer: @termux
+Version: 3.1.0-2
+Homepage: https://bs2b.sourceforge.net/
+Depends: libc++, libsndfile
+Description: Bauer stereophonic-to-binaural DSP
+Filename: dists/termux/extras/binary-aarch64/libbs2b_3.1.0-2_aarch64.deb
+Size: 13636
+MD5Sum: d57e08ad7c4f9ea8c20c0bdb40daf7a9
+SHA1: 8e46222a1bf52d6c51335eb3bdfcd8a70322c460
+SHA256: c71660d99e4baa064ba93f0ef750b6b2ea0d1d494a754cf1c67b550bb4baa91d
+SHA512: 346bab1b85706fc95d1feaa084063503b679b1c2ae5418845afbd0e6eb9365cf147a1438061edf89bc6b72a22ac9ab56dda2a2670dc581a638cabb76e61a7a5b
+
+Package: libbsd
+Architecture: aarch64
+Installed-Size: 1312
+Maintainer: @termux
+Version: 0.12.2
+Homepage: https://libbsd.freedesktop.org
+Breaks: libbsd-dev
+Depends: libmd
+Replaces: libbsd-dev
+Description: utility functions from BSD systems
+Filename: dists/termux/extras/binary-aarch64/libbsd_0.12.2_aarch64.deb
+Size: 146560
+MD5Sum: 2f7f7a37f54ef1bdebd9a2d741fab83d
+SHA1: bd65f7491c4bf174a4555c47f8386afa7ee608eb
+SHA256: 9d9f6246b1d2fa6a6dbfc70acc9b6a28b98817bf42eaff3af968b63a69452e4a
+SHA512: f836875e0dbd859924eff124a1e3abb3bfa225c645ed217a796433df984cfa6260cdde14ef955584c7865ab06f4bbde5832bacc80f4f82c38db0e7627a51f34b
+
+Package: libcaca
+Architecture: aarch64
+Installed-Size: 1384
+Maintainer: @termux
+Version: 0.99.beta20-3
+Homepage: http://caca.zoy.org/wiki/libcaca
+Breaks: libcaca-dev
+Depends: imlib2, libc++, ncurses, zlib
+Replaces: libcaca-dev
+Description: Graphics library that outputs text instead of pixels
+Filename: dists/termux/extras/binary-aarch64/libcaca_0.99.beta20-3_aarch64.deb
+Size: 249056
+MD5Sum: e783f17fe72c0cd0399b49f3e2916448
+SHA1: 06c2224270347b7b54d0340365a80b8f96105ac7
+SHA256: 1b02d089bb2aa918dcf7ff19fe3b7c119b07c5e532922897eb88b3ef934e0eeb
+SHA512: 39d9b2e541f2dbf92cc485e4c72cf020c6397ac5f89fa1ea8152e7955d6444c73e506289284fde966c68514d4f99140b1b595db503b0d4e459b435f3be929d1c
+
+Package: libcairo
+Architecture: aarch64
+Installed-Size: 1640
+Maintainer: @termux
+Version: 1.18.4-2
+Homepage: https://cairographics.org
+Breaks: libcairo-dev, libcairo-gobject
+Depends: fontconfig, freetype, glib, libandroid-shmem, libandroid-execinfo, liblzo, libpixman, libpng, libx11, libxcb, libxext, libxrender, zlib
+Replaces: libcairo-dev, libcairo-gobject
+Description: Cairo 2D vector graphics library
+Filename: dists/termux/extras/binary-aarch64/libcairo_1.18.4-2_aarch64.deb
+Size: 485284
+MD5Sum: 427ce634275bae5d34d6b97a2bbb0155
+SHA1: 15877e274cb6e811008e1e1f0c319e2a3eeda834
+SHA256: ea7a4341c6c3186fec785e1395bda26b4d99cddb0f73cffcbe8c38a8bc2fa68f
+SHA512: 4fe073d889f68f552b39eeba1fd9f0b7499b8e783213521b00a4e842bfa112785427323bf3a41ce5b4b2c43f31741d0454784d4287bbe6732ef7fb06cbaae433
+
+Package: libcap
+Architecture: aarch64
+Installed-Size: 564
+Maintainer: @termux
+Version: 2.78
+Homepage: https://sites.google.com/site/fullycapable/
+Breaks: libcap-dev
+Depends: attr
+Replaces: libcap-dev
+Description: POSIX 1003.1e capabilities
+Filename: dists/termux/extras/binary-aarch64/libcap_2.78_aarch64.deb
+Size: 79188
+MD5Sum: 0bc24594b5fd1b89a4dad6e1d0915e08
+SHA1: 9aeec78e1d221d8201e2c87988342167694c8fa8
+SHA256: 50c530c845288b135dbe4690f8c19ee8ef1c6bb554be4421828eeee9c1f7f89c
+SHA512: 122dda97f2f548da5d6b4899c9342650c880547f67d15549203f9fb63a6bb909afe06b4dbe63b1d84644cd3e957006926b5212fea8bb2fe3aa502f979d4b6565
+
+Package: libcddb
+Architecture: aarch64
+Installed-Size: 224
+Maintainer: @termux
+Version: 1.3.2-1
+Homepage: https://libcddb.sourceforge.net/
+Depends: libiconv
+Description: A C library to access data on a CDDB server
+Filename: dists/termux/extras/binary-aarch64/libcddb_1.3.2-1_aarch64.deb
+Size: 38836
+MD5Sum: 003d63e8b128c8617cdd05f6726b9d4b
+SHA1: 59aca999d2568afd3cfe3e7c75c249db402c48c0
+SHA256: 17eefd3a8952db3e5f024eec2aff4358c43a201198f2154e224eefc826f6abc7
+SHA512: 09f1de0112806b419cc6853e724cd7c5e84c24567c2f14cbb0f07e4c14b97bd1747742e79dcb76650aa7ce302a15ace5ddb7d9ed88c107fe8d28452672c34a1d
+
+Package: libchromaprint
+Architecture: aarch64
+Installed-Size: 200
+Maintainer: @termux
+Version: 1.6.1
+Homepage: https://acoustid.org/chromaprint
+Breaks: chromaprint (<< 1.5.1-p20250625)
+Depends: fftw, libc++
+Replaces: chromaprint (<< 1.5.1-p20250625)
+Description: C library for generating audio fingerprints used by AcoustID
+Filename: dists/termux/extras/binary-aarch64/libchromaprint_1.6.1_aarch64.deb
+Size: 48676
+MD5Sum: 2cf623acee7106dc1a0da5d2be769f5c
+SHA1: 90004c6785a2aad12a5c9931892e97451243548c
+SHA256: 80f8e5f9f3ca662838a2d7b2e10dfc2a276f94f4890c6556daa667dfca19697b
+SHA512: e586ae06c9e08ee5050c87e17fb482b96a6fb70bea2a96a75a23f2728c568cf716e2243c7467812c7afe6e7d0a1851a3e307c08d5feb7180031404e8b0ba78bf
+
+Package: libdav1d
+Architecture: aarch64
+Installed-Size: 840
+Maintainer: @termux
+Version: 1.5.4
+Homepage: https://code.videolan.org/videolan/dav1d/
+Description: AV1 cross-platform decoder focused on speed and correctness
+Filename: dists/termux/extras/binary-aarch64/libdav1d_1.5.4_aarch64.deb
+Size: 265960
+MD5Sum: 1c4738e817450e565658b0db10f9035d
+SHA1: 0805624c4565384edca676726a8ba08876786513
+SHA256: 4c2ffdcbbb805727caaa2e91b56917830dbacf4245dd439cf2e1c0d61a541613
+SHA512: c0b09a96e8201d8951e7e9f2befbbaed48d8a3a206a4fa91f5c8156d2fabc214279b3bb1a6a852a4555a26e5b2a88530a1be436b109c3724d124ceda8679da4a
+
+Package: libde265
+Architecture: aarch64
+Installed-Size: 608
+Maintainer: @termux
+Version: 1.1.2
+Homepage: https://github.com/strukturag/libde265
+Depends: libc++
+Description: H.265/HEVC video stream decoder library
+Filename: dists/termux/extras/binary-aarch64/libde265_1.1.2_aarch64.deb
+Size: 193084
+MD5Sum: bae98f21d5d78ea65ffcafa98db2cc54
+SHA1: 447b65e9903aa836581b2f1f123e79e80fa593ac
+SHA256: 19f377c5349ce4e12480a707391f42c10e71807382e41a6f687d8bde40814387
+SHA512: 7144f2980d72bac82e715f00c9ae1784a70ad521afbf4dd519843cfb1a47edb9cd0951f8dc191011e78a41a3d2cfed68aa1412cb1f8e3b0f5cd0e337c5c8cc7f
+
+Package: libdrm
+Architecture: aarch64
+Installed-Size: 900
+Maintainer: @termux
+Version: 2.4.134
+Homepage: https://dri.freedesktop.org/wiki/
+Description: Userspace interface to kernel DRM services
+Filename: dists/termux/extras/binary-aarch64/libdrm_2.4.134_aarch64.deb
+Size: 180604
+MD5Sum: d1ff3395a76e77bd2db904143daffe9d
+SHA1: 78e7203556ee23c79d21e700f9e60db6fa99b8bb
+SHA256: 0cbe82140cf325c15473fbf53a3711fc7a2fb88e36a3eea58a3267c461ab4a17
+SHA512: 83dfcbabf01eef59daa803d2386fa234c510c5072814aa83fd8c95ed358163e3cb39c60b9f6bfd98861b8c718005f0e2d51cea6a572f766f04bb18d8a02dd8d4
+
+Package: libdvbpsi
+Architecture: aarch64
+Installed-Size: 708
+Maintainer: @termux
+Version: 1.3.3-1
+Homepage: https://code.videolan.org/videolan/libdvbpsi/
+Description: Simple MPEG TS PSI parser library supporting various standards
+Filename: dists/termux/extras/binary-aarch64/libdvbpsi_1.3.3-1_aarch64.deb
+Size: 71764
+MD5Sum: 138887e35c47b28afbad0a9bf1aeecc2
+SHA1: 2987fd3c893a4e2bbdaa9fa45d15c4ed121987d0
+SHA256: 8c06fc8caec39dbf85a5d0010a13ef90f330a4ada93a9915f3c654621f4fe1b2
+SHA512: 32bcd980e6bd3a6591aaf1b4ec1b0c771dd87e230429d1bda0ce375565c6681cf920b4cdb039532c3b3f78855f96349f0d388a184ca2bd8654488bf8e240a3a3
+
+Package: libdvdnav
+Architecture: aarch64
+Installed-Size: 224
+Maintainer: @termux
+Version: 7.0.0
+Homepage: https://www.videolan.org/developers/libdvdnav.html
+Depends: libdvdread
+Description: A library that allows easy use of sophisticated DVD navigation features
+Filename: dists/termux/extras/binary-aarch64/libdvdnav_7.0.0_aarch64.deb
+Size: 49404
+MD5Sum: c90fc71d514fd573e4ecd6124f48ab8e
+SHA1: 039725cdabe7545fdc1bc4fa3c04683c969e9050
+SHA256: fd8509a88b5966cdadf9925b2687e50c31d796e773cb326e651e76c0a3b16958
+SHA512: 1465d4781a3c7b2fc377513b8cd3de462cc1c46ecb92f40b0feea83ec1a8b7b82fea5ebd1a49a42471d8406de39684b63450ff8cfbf8adfbbfcf6f3ab3169875
+
+Package: libdvdread
+Architecture: aarch64
+Installed-Size: 336
+Maintainer: @termux
+Version: 7.1.1
+Homepage: https://code.videolan.org/videolan/libdvdread
+Description: A library that allows easy use of sophisticated DVD navigation features
+Filename: dists/termux/extras/binary-aarch64/libdvdread_7.1.1_aarch64.deb
+Size: 78252
+MD5Sum: 7dfbfd6917af4b05eddd8f29084ad6de
+SHA1: db43938d811ccd2c1afe05d90e7ddbc115cf7933
+SHA256: 8e1606f7d2aec40c9e8f748ab595cf0f684c998b4642bc59fa6b18b5fe1d2fb0
+SHA512: d6477ca8509c7cafede60b5004bbb61e3403ac177aebd55fd23ca3abfed64b86910b226e554672d001912d74d77ab4f55d3e93ea118ab628205b5ffa26024ce8
+
+Package: libebml
+Architecture: aarch64
+Installed-Size: 388
+Maintainer: @termux
+Version: 1.4.7
+Homepage: https://github.com/Matroska-Org/libebml
+Depends: libc++
+Description: Extensible Binary Meta Language library
+Filename: dists/termux/extras/binary-aarch64/libebml_1.4.7_aarch64.deb
+Size: 65988
+MD5Sum: 8d9dc9f326ada76e938fed96cc98f416
+SHA1: ad7ae92a027c8c0630cb5febbb8fd21d343004d0
+SHA256: e1fef50a13d012d76324109a3b5f8cb4da995dbe27bd31b3109d0110c722a096
+SHA512: 9399cbc1d7872dcab7244482a6fee2c453f9e039eae742ba9de540f2b8a40245438b72ea4d2c1d89a047cf89139d3ddfac03af5bd2f4317ddb530a7ba08949de
+
+Package: libglvnd
+Architecture: aarch64
+Installed-Size: 3244
+Maintainer: @termux
+Version: 1.7.0-1
+Homepage: https://gitlab.freedesktop.org/glvnd/libglvnd
+Breaks: mesa (<< 22.3.3-2)
+Depends: libc++, libx11, libxext
+Conflicts: libmesa, mesa (<< 22.3.3-2), ndk-sysroot (<= 25b)
+Recommends: mesa
+Replaces: libmesa, mesa (<< 22.3.3-2)
+Description: The GL Vendor-Neutral Dispatch library
+Filename: dists/termux/extras/binary-aarch64/libglvnd_1.7.0-1_aarch64.deb
+Size: 178340
+MD5Sum: 28e9db244a6d55a7970a2137add26bdd
+SHA1: bd91055cf19e9d51c9f860782306ba99a2dda969
+SHA256: 67f3fd247e4279a7fceddbd2929f8b53e87c255edfc9c07d0dee7df5fe243d2c
+SHA512: 2695b4faedd80774099665727ea4e2c66d53ec93cc46a0bb0562c5daa5e66ebf766ef139559ffd621bb359ea2cd2e00a6ec8cff3f6843eea08445d0d2020c431
+
+Package: libgraphite
+Architecture: aarch64
+Installed-Size: 296
+Maintainer: @termux
+Version: 1.3.15
+Homepage: https://github.com/silnrsi/graphite
+Breaks: libgraphite-dev
+Depends: libc++
+Replaces: libgraphite-dev
+Description: Font system for multiple languages
+Filename: dists/termux/extras/binary-aarch64/libgraphite_1.3.15_aarch64.deb
+Size: 82208
+MD5Sum: 0fcbfcb51ef069cf6636019891e74ca7
+SHA1: 0fdc5a9e7fb348f04ab2744c41aa9f6c3503f4c4
+SHA256: 15ac85737a35150cecb9e46ecb32567ae2a4fc28071cdf58fb95e1b77d7889d9
+SHA512: 08e67bbfe3267dd738c888782f6b9b8cb963c8427a0fed1c1e82270a2a0bb378eb916c14b0d81f67e207a07e53b7b9fac09426f3e6fe0b16264b52253bedd03b
+
+Package: libheif
+Architecture: aarch64
+Installed-Size: 2432
+Maintainer: @termux
+Version: 1.23.4
+Homepage: https://github.com/strukturag/libheif
+Depends: gdk-pixbuf, glib, libaom, libc++, libdav1d, libde265, librav1e, libx264, libx265
+Description: HEIF (HEIC/AVIF) image encoding and decoding library
+Filename: dists/termux/extras/binary-aarch64/libheif_1.23.4_aarch64.deb
+Size: 589320
+MD5Sum: ec161f622a374cf31452d16dfe50adac
+SHA1: f772546bb101476852d75684218ed3f7025b063d
+SHA256: 78c53ef6df843f01abc65d79ea6e4253965b64b918ca6d6b0ba10ce069b56c50
+SHA512: bb00feeb52ff18cd309bfd7510a3c4426967231f2148be3e9c66a76601ffb462ba3c87658d96c3c5627112ddf9259d012d23940d410b3c4d975f82910cde8d02
+
+Package: libicu
+Architecture: aarch64
+Installed-Size: 43632
+Maintainer: @termux
+Version: 78.3
+Homepage: http://site.icu-project.org/home
+Breaks: libicu-dev
+Depends: libc++
+Replaces: libicu-dev
+Description: International Components for Unicode library
+Filename: dists/termux/extras/binary-aarch64/libicu_78.3_aarch64.deb
+Size: 10210396
+MD5Sum: 70b88f61e3bfa3f0bb0bff5b2b85f68c
+SHA1: ffc41fd4879f568b1bc97e609ad62a5c50fac493
+SHA256: f536403f65a08fe0df6e7304184e902d54def77d5c3bd5edfd9109d57601d276
+SHA512: 58a639f1cc43987803800d671cc5f1ad04440316251a46d1618e1010da6e172901904f2e34aa2154c7fad4e058edacf4cc35e7b20c3739c30543244d9a61b2c3
+
+Package: libid3tag
+Architecture: aarch64
+Installed-Size: 180
+Maintainer: @termux
+Version: 0.16.4-1
+Homepage: http://www.underbit.com/products/mad/
+Breaks: libid3tag-dev
+Depends: zlib
+Replaces: libid3tag-dev
+Description: MAD ID3 tag manipulation library
+Filename: dists/termux/extras/binary-aarch64/libid3tag_0.16.4-1_aarch64.deb
+Size: 30556
+MD5Sum: e3ddeebe4a5c5d4f2d0bf8dbd023ee79
+SHA1: 8d5c64850e7c9c1e718f051dbde46f39141f7822
+SHA256: 3e472561e6791800f674a6fb6781cc600f57144eba83ea5bc08985ce5fb6cb3a
+SHA512: 44652be76889f6fbe080f3aad9f9f558014025a5c06b653330b5af844645cf6db1fe40b3efc61e9b2cf33ba2d0ec1f9716ea7e2eadbe184900427953330ddc68
+
+Package: libidn
+Architecture: aarch64
+Installed-Size: 728
+Maintainer: @termux
+Version: 1.44
+Homepage: https://www.gnu.org/software/libidn/
+Breaks: libidn-dev
+Depends: libiconv
+Replaces: libidn-dev
+Description: GNU Libidn library, implementation of IETF IDN specifications
+Filename: dists/termux/extras/binary-aarch64/libidn_1.44_aarch64.deb
+Size: 174724
+MD5Sum: 95c033ab1d2729116877a0d6b0ba67ad
+SHA1: abb51b38ea5105eb031151f8248eb432af29c5a1
+SHA256: d683287fcb512324ff08198cd74f251adaba5fd4578c32b4522fe481a8f4daa1
+SHA512: 571ffe376a4d054dd2af91b18fb32a4624bd7bac3129c9c4a7f0a43013fd696366ad55636845a510232b26c924c78fa35e51d88dc12b0ebedfdaac259f0a6b38
+
+Package: libjxl
+Architecture: aarch64
+Installed-Size: 4448
+Maintainer: @termux
+Version: 0.12.0-1
+Homepage: https://jpegxl.info/
+Depends: brotli, giflib, glib, highway, libc++, libffi, libiconv, libjpeg-turbo, libpng, zlib
+Suggests: gdk-pixbuf
+Description: JPEG XL image format reference implementation
+Filename: dists/termux/extras/binary-aarch64/libjxl_0.12.0-1_aarch64.deb
+Size: 977072
+MD5Sum: f0c94f94103b08c045fe8628b10ec035
+SHA1: 139f7b2bdaa66bdfc66f4df204c7061ce5b16a09
+SHA256: 5deef55b1940aef2bc2666fdb4bfcba66cfbf73c17a419f299ddabe312b2ce11
+SHA512: 3f940f66862166e2fa999a97ca88853b92061e051787d6154a146506fa2c8c2a4b42d9e773f5462d822e6fe0a39e513722b680bf7ea3f2b3d779eeb546abb78b
+
+Package: liblzo
+Architecture: aarch64
+Installed-Size: 448
+Maintainer: @termux
+Version: 2.10-5
+Homepage: http://www.oberhumer.com/opensource/lzo
+Breaks: liblzo-dev
+Replaces: liblzo-dev
+Description: Portable lossless data compression library
+Filename: dists/termux/extras/binary-aarch64/liblzo_2.10-5_aarch64.deb
+Size: 69560
+MD5Sum: def23c6fadf0e70308342b161f60bca1
+SHA1: 20cdafccb531d4871eb9c2d95c543aab7c45c5e3
+SHA256: b8a6d232d592dcd6529589c817927cca3254f3ab40a85fce873d997ace7d1ca2
+SHA512: a672d8542b3da1453c17a8945ade30a3191eb8505540f602e0e0e6c7a2b9896fd8f188b5ce43b04c60592c5b62d353af3050d108cecc03ca2190c55130f9fbdc
+
+Package: libmad
+Architecture: aarch64
+Installed-Size: 236
+Maintainer: @termux
+Version: 0.16.4-2
+Homepage: http://www.underbit.com/products/mad/
+Breaks: libmad-dev
+Replaces: libmad-dev
+Description: MAD is a high-quality MPEG audio decoder
+Filename: dists/termux/extras/binary-aarch64/libmad_0.16.4-2_aarch64.deb
+Size: 63492
+MD5Sum: 8a982222f85c65c6fa35548f58f7f6c3
+SHA1: 0e361e891a45398b0a06c3289c23f1cd354a8471
+SHA256: 4c80f7d460bb4895db93c457c3c090802ee4256edffeb2621736694b3ec04de8
+SHA512: dc2d9084b79723bbfc58ea60dd47d82e6779e16cce73527047238046406f3c482702833343666b3fc86a505fd5a0a319672ae295c17ee1d533da4c0784d229ca
+
+Package: libmatroska
+Architecture: aarch64
+Installed-Size: 912
+Maintainer: @termux
+Version: 1.7.2
+Homepage: https://dl.matroska.org/downloads/libmatroska/
+Depends: libc++, libebml
+Description: Matroska library
+Filename: dists/termux/extras/binary-aarch64/libmatroska_1.7.2_aarch64.deb
+Size: 120524
+MD5Sum: b5949c46306dbb4ecd25cd6eacd742fb
+SHA1: 2521814bafe08ef45f4b8e4f4df29a5c7d3b6f1a
+SHA256: 79116cf5197c197462c2de979df666018006537a830b8038bad47c19c5f79396
+SHA512: e962e7dd0ba35214f7671d13b592e473b64759b529600d18b2ed778ad42240934cdcd1315d70f69be56fb166edf848d325318d8c23639adc9708f6b67d7e6b12
+
+Package: libmpeg2
+Architecture: aarch64
+Installed-Size: 252
+Maintainer: @termux
+Version: 0.5.1-2
+Homepage: https://libmpeg2.sourceforge.io/
+Description: MPEG-2 decoder libraries
+Filename: dists/termux/extras/binary-aarch64/libmpeg2_0.5.1-2_aarch64.deb
+Size: 55228
+MD5Sum: 7888c69c36d544a7799f779148ff08ba
+SHA1: d63014ebfb79a84a88b4276b47d290e977692d6e
+SHA256: b963fca644a166c5f94ce82f26638eda3ce37b1d843587d5248fd0c0a654775e
+SHA512: 0efc30e648f55ea4adf4b1db51779def1149e6d104ae5c7e821c08261685ac27cbb857b17f6ba1ca34bf149b5d33b7b53b7e7ccff36943d3a54ec656528feb79
+
+Package: libmysofa
+Architecture: aarch64
+Installed-Size: 1328
+Maintainer: @termux
+Version: 1.3.5
+Homepage: https://github.com/hoene/libmysofa
+Depends: zlib
+Description: Reader for AES SOFA files to get better HRTFs
+Filename: dists/termux/extras/binary-aarch64/libmysofa_1.3.5_aarch64.deb
+Size: 1160956
+MD5Sum: 831e7631c2e8a08bed2fdf5099ef559b
+SHA1: cfff320180e51f84d21edacd9863cf5743c8821f
+SHA256: b083050d4bc0bd11db0f73382ae3db8c5dc352520b78aaa44f150d87cff80215
+SHA512: e0eb009c5d610db6d505e881c80ef5e146531f5a798668d708a0864828bced371faa386b8f494ec91e413857355c166721078ca9c4653f52ad6d1468955b67d7
+
+Package: libnfs
+Architecture: aarch64
+Installed-Size: 1036
+Maintainer: @termux
+Version: 7.0.2
+Homepage: https://github.com/sahlberg/libnfs
+Breaks: libnfs-dev
+Depends: libgnutls
+Replaces: libnfs-dev
+Description: NFS client library
+Filename: dists/termux/extras/binary-aarch64/libnfs_7.0.2_aarch64.deb
+Size: 173244
+MD5Sum: 41c2f0d77395fe95141bc5b67e5e3906
+SHA1: 972a45e7bf563ec7fd87f0f1804cafc981cf920d
+SHA256: 32ee9158453c5e693264b6de397b2120c0fc36c58efe41c01c867bed53f51fea
+SHA512: 2d5938f91a2286fb820ca314af38d7599b284d2c5a1bbc19e66a75dd5c6484cb06880c605e2f4bde726e1f61849fb33d43e60e51a2451e79381fb37604c1b07a
+
+Package: libopencore-amr
+Architecture: aarch64
+Installed-Size: 296
+Maintainer: @termux
+Version: 0.1.6-1
+Homepage: https://sourceforge.net/projects/opencore-amr/
+Breaks: libopencore-amr-dev
+Replaces: libopencore-amr-dev
+Description: Open source implementation of the Adaptive Multi Rate (AMR) speech codec
+Filename: dists/termux/extras/binary-aarch64/libopencore-amr_0.1.6-1_aarch64.deb
+Size: 111688
+MD5Sum: 509cb1b512223c1e0d09941d6b759306
+SHA1: 4eb04b0f64248124e540f8ef35eb2b3fd47d5382
+SHA256: 8ad25c12b892d56e85a21517d814146109fea7865b2548b8637743d7d6e0fee2
+SHA512: e741a137222df28c2bf82ddb727570992a350980d45dff0942ff9ef270a008a01752168bd3a1ec444925af13a36f76228bb36f210ded6e76ae03776f27c5ed2e
+
+Package: libopenmpt
+Architecture: aarch64
+Installed-Size: 1984
+Maintainer: @termux
+Version: 0.8.9
+Homepage: https://lib.openmpt.org/libopenmpt/
+Depends: libc++, libvorbis, libmpg123, zlib
+Description: Library to render tracker music formats to a PCM audio stream
+Filename: dists/termux/extras/binary-aarch64/libopenmpt_0.8.9_aarch64.deb
+Size: 543436
+MD5Sum: 8982aa90839d46afbd4aa6f6fb7b7176
+SHA1: f1227623d94b7f7ce466ffbee6d6fe874c27b7ae
+SHA256: 80c0b91a3804edc69bd45ec8a9ef4f1d1a1b5be2b8712dafce9469069cc1acc0
+SHA512: aa7214f25016ce2a6f51afaa0e25ad54c2893cab96bf6c7b971c85524368af12ca7fba0a709f4030a6457e58e706a160f782015ebd65020e54be9aab7813381c
+
+Package: libpixman
+Architecture: aarch64
+Installed-Size: 676
+Maintainer: @termux
+Version: 0.46.4-1
+Homepage: https://www.pixman.org/
+Breaks: libpixman-dev
+Replaces: libpixman-dev
+Description: Low-level library for pixel manipulation
+Filename: dists/termux/extras/binary-aarch64/libpixman_0.46.4-1_aarch64.deb
+Size: 157712
+MD5Sum: e91068f7bd3c7bda78b51df117e6e57e
+SHA1: 393966896a8cb3d6c8f0c1fd0bc3f0dcd5a5d797
+SHA256: 364b8c82ff68f8513930e5d413459fb7c52eccc7ba75a97a8c5a38760eee8d33
+SHA512: 5d9d282184aa5cb61dbf115a917a324bb4a416b372dbb4b666ea20ecdf9e1b3b9ea05d5ec8b62004328427a5ffc822adac2f0c16ed390032b90f9fd36b251e67
+
+Package: libplacebo
+Architecture: aarch64
+Installed-Size: 1536
+Maintainer: @termux
+Version: 7.360.1
+Homepage: http://libplacebo.org/
+Depends: littlecms, glslang, python, vulkan-icd
+Description: Reusable library for GPU-accelerated video/image rendering
+Filename: dists/termux/extras/binary-aarch64/libplacebo_7.360.1_aarch64.deb
+Size: 416772
+MD5Sum: 868fbe1a4f4a7068af81bfd57f4527c7
+SHA1: 978b87a144cf1b1954a6cf22832ef3c0290122b2
+SHA256: 903ba38d4b1184a7fb37584e93967a73791f5df22fb3f81de5b33051b77b73ca
+SHA512: 3bb027ba9bea9ec4bf1cc407f84812a454cec8a34cdb03472405fb0c71bfc54b16c503c59e1976ee2702ccb8e7a7a99aa5ae70391427182d8023028666699f4d
+
+Package: libpopt
+Architecture: aarch64
+Installed-Size: 136
+Maintainer: @termux
+Version: 1.19-3
+Homepage: https://www.linuxfromscratch.org/blfs/view/svn/general/popt.html
+Breaks: libpopt-dev
+Depends: libandroid-glob
+Replaces: libpopt-dev
+Description: Library for parsing cmdline parameters
+Filename: dists/termux/extras/binary-aarch64/libpopt_1.19-3_aarch64.deb
+Size: 33272
+MD5Sum: 77b207434780eac13794343ae13dc704
+SHA1: 72d8e738cc08d3b3e8e4e23b703419ea91a2e1b2
+SHA256: 8de7d28d5bb749fa1e38d229638e2f0b8c15bddd9d0eae3217b7a52fe5668145
+SHA512: 49eb611a7f38b318549a97d1dc140fc4335d3bb9644d26b54de6e9484e674ecd9ebcdf2f13e73f99064fd59d236db6394f041c7e4ce902b1281d7f8681fdc858
+
+Package: librav1e
+Architecture: aarch64
+Installed-Size: 2320
+Maintainer: @termux
+Version: 0.8.1
+Homepage: https://github.com/xiph/rav1e/
+Description: An AV1 encoder library focused on speed and safety
+Filename: dists/termux/extras/binary-aarch64/librav1e_0.8.1_aarch64.deb
+Size: 695340
+MD5Sum: e158593be09c2371d16823019da02fde
+SHA1: 0bcd499866e818d8fded0dd403caebc9c4a9f424
+SHA256: ac7842a5896bdff1b4d4974d9c02e60f7d4a587b8618df691118a8591f8dbccf
+SHA512: 329b0f44195342b53136a198e4a7ecfd58ab9d9b81c42c30c99842d05c437b591a71e1df03fc99b86cac7529b878c889627fd09eff8d43319da38342f550ca60
+
+Package: librsvg
+Architecture: aarch64
+Installed-Size: 12348
+Maintainer: @termux
+Version: 2.63.0
+Homepage: https://wiki.gnome.org/action/show/Projects/LibRsvg
+Breaks: librsvg-dev
+Depends: fontconfig, freetype, gdk-pixbuf, glib, harfbuzz, libcairo, libdav1d, libpng, libxml2, pango
+Replaces: librsvg-dev
+Description: Library to render SVG files using cairo
+Filename: dists/termux/extras/binary-aarch64/librsvg_2.63.0_aarch64.deb
+Size: 2134556
+MD5Sum: 467e9a584c121f9d7ce35db12bb866d3
+SHA1: 116117832c57308fe52021682a815d5001498edf
+SHA256: fbdccfc642f1459d2da124b9e0554e67794d4cb066bbd99d62b3b9b6db101edf
+SHA512: 2d3dc38af06ad707c673fdbc8d910e9f8863bc3134413c2ed05341c6bddf893328f9e57a2f8a894dfb39abce4f29b74e0a6db00e90cf9d32b577128713f5b232
+
+Package: libsamplerate
+Architecture: aarch64
+Installed-Size: 1644
+Maintainer: @termux
+Version: 0.2.2-4
+Homepage: https://libsndfile.github.io/libsamplerate/
+Description: A library for performing sample rate conversion of audio data
+Filename: dists/termux/extras/binary-aarch64/libsamplerate_0.2.2-4_aarch64.deb
+Size: 973440
+MD5Sum: ca8dfc9d4f0343cb3d5a4c465a153be5
+SHA1: af2730c1914a4e800ebbff220601e9d0c20e599d
+SHA256: 521d46cc49557c00b2d5c107da1f86f0cdda8a3a3b84bd9958bd7fc52bec2dae
+SHA512: 2a76b4175a320c29a313801961b867a79adc1063706e590feb99670dc41a9649d591267cc3b3d6d89fa0a102f7382f034f24da2bf54670cb05346784a2be5b6f
+
+Package: libsecret
+Architecture: aarch64
+Installed-Size: 1184
+Maintainer: @suhan-paradkar
+Version: 0.21.8.2
+Homepage: https://gitlab.gnome.org/GNOME/libsecret
+Depends: glib, libgcrypt
+Description: A GObject-based library for accessing the Secret Service API
+Filename: dists/termux/extras/binary-aarch64/libsecret_0.21.8.2_aarch64.deb
+Size: 142320
+MD5Sum: 73163f8c5dbc08fc7cba7d4f8331ee84
+SHA1: 2163179706d1755c98f55690edc6633200976c95
+SHA256: f17c41f30eb99c7a450c60322d917c2f18910f6ef3232ca922186507d12c68e2
+SHA512: dd2f6ff2fe372252778b95e3a67184904235f7a2aea1e31f18da3787ba7d27c08a1a80b28171b47dc4988ac6411e23a1b223b001cb1ad95ba16bc3d1e124a295
+
+Package: libsodium
+Architecture: aarch64
+Installed-Size: 724
+Maintainer: @termux
+Version: 1.0.22-1
+Homepage: https://libsodium.org/
+Breaks: libsodium-dev
+Replaces: libsodium-dev
+Description: Network communication, cryptography and signaturing library
+Filename: dists/termux/extras/binary-aarch64/libsodium_1.0.22-1_aarch64.deb
+Size: 150908
+MD5Sum: 660af9db33a9ff2181506b3d027abb9c
+SHA1: f47e38b6afce2d30c8abea6e3479354de701382c
+SHA256: a9fbbc3a7a5a2a0f514474ee706d49b576ac09268b87142a3690edb9f5f3643d
+SHA512: 84c1bee85f0da3ac6c5bef877343a885234135abfac06ffa77e4c339b2cb3c412e9b8cb97d2c715093fcc63679c788d91c55f41d367efb8c39a9ef538b2d50a7
+
+Package: libsrt
+Architecture: aarch64
+Installed-Size: 948
+Maintainer: @termux
+Version: 1.5.7
+Homepage: https://github.com/Haivision/srt
+Depends: libc++, openssl
+Description: Secure Reliable Transport (SRT) Protocol
+Filename: dists/termux/extras/binary-aarch64/libsrt_1.5.7_aarch64.deb
+Size: 279996
+MD5Sum: d3379aaf23536b0554d01fae6c5ef2c0
+SHA1: 987d65da738b9002e84c16a63940e75b6cd148ce
+SHA256: 6199d01dd9d1630a32c220f7fdb9bca958adbd7062f90e9bfc010cf75fdef07a
+SHA512: 688795d5411ce9195fcae013c6fd08d845627929a14087eb74f042356d70acbd264a20d99fcff244ebc850511304a52ad2328e641ea851a9d3204fb2bb643a41
+
+Package: libssh
+Architecture: aarch64
+Installed-Size: 904
+Maintainer: @termux
+Version: 0.12.2
+Homepage: https://www.libssh.org/
+Breaks: libssh-dev
+Depends: openssl, zlib
+Replaces: libssh-dev
+Description: Tiny C SSH library
+Filename: dists/termux/extras/binary-aarch64/libssh_0.12.2_aarch64.deb
+Size: 234304
+MD5Sum: d8de16295cd6eb04b1825598ed68a624
+SHA1: 16aa3c6c1dcaeb83bc5f0ac466062e8f927b368a
+SHA256: 05cfb1d6f70e9b316f1eac7a5ec9139f884e644d6d91e668e9ca49716aad8ff0
+SHA512: 2cc730ccf6b77cc72ae794defa42598be5eb9350af62a5ad34ff927ef6a94318a8236a5e3476ec337d4d281919a7ad7da694fff824da57be2d63979b21631f63
+
+Package: libtalloc
+Architecture: aarch64
+Installed-Size: 164
+Maintainer: @termux
+Version: 2.4.3
+Homepage: https://talloc.samba.org/talloc/doc/html/index.html
+Breaks: libtalloc-dev
+Replaces: libtalloc-dev
+Description: Hierarchical, reference counted memory pool system with destructors
+Filename: dists/termux/extras/binary-aarch64/libtalloc_2.4.3_aarch64.deb
+Size: 33128
+MD5Sum: 37e8342a6aa2f1731734873cdc9c1d44
+SHA1: 608fcd01ddf1b7a454a3ead1a11799f6d527432c
+SHA256: ac81ad623d74c209718b9f3acb2dd702cc8a88c431e820d212229910b4db29da
+SHA512: 5d46942cb0ba6f6f6f1648be3e8d7684059dbfdcf5db73338220bd70a57fa92cd15421273c6fc47c5f7f375bfbbdb6f08425a78309b0d95829f8d87df1815071
+
+Package: libtasn1
+Architecture: aarch64
+Installed-Size: 472
+Maintainer: @termux
+Version: 4.21.0
+Homepage: https://www.gnu.org/software/libtasn1/
+Description: This is GNU Libtasn1, a small ASN.1 library
+Filename: dists/termux/extras/binary-aarch64/libtasn1_4.21.0_aarch64.deb
+Size: 101344
+MD5Sum: ddbdbf11078a9791a5c63fe682be0873
+SHA1: b38a8e2e6690b4ea528ea25ca4e5140ff4ef00e2
+SHA256: 1d02de3a7e5ef4ff7d893597091176b8ddf135f1ddfacff951f76c18711a7342
+SHA512: d5c3a568c061f204b3db340a4be786669e2dbb1168c838762a7dda22a6ee6a735c1b35a85201432c72d444b767dceb67a9b135a7687349ae99b9511d66ef6fbc
+
+Package: libtdb
+Architecture: aarch64
+Installed-Size: 168
+Maintainer: @termux
+Version: 1.4.15-1
+Homepage: https://tdb.samba.org/
+Depends: libbsd
+Description: A trivial database system
+Filename: dists/termux/extras/binary-aarch64/libtdb_1.4.15-1_aarch64.deb
+Size: 38860
+MD5Sum: 0a5fc1a9166481f8a35e279cd53f0d8b
+SHA1: 0df6f209934d804c486084c0ddf01b224522d2fe
+SHA256: 40ef03a4b700babbc2003220f83b9dd7c3ea4cb4fd280036d4277f7c2f9ffcbd
+SHA512: 8b1f11ef39341c90790945b1b89616d85567f69bc0e1306a273968628d926773efae83ef98752355c9e2accc4b53aec077dadeae5c43aa1535f44d751fc87bd9
+
+Package: libtheora
+Architecture: aarch64
+Installed-Size: 668
+Maintainer: @termux
+Version: 1.2.0-1
+Homepage: https://www.theora.org/
+Depends: libogg, libvorbis
+Description: An open video codec developed by the Xiph.org
+Filename: dists/termux/extras/binary-aarch64/libtheora_1.2.0-1_aarch64.deb
+Size: 132020
+MD5Sum: 781b94c67377c6f2179203c8fa0f7d36
+SHA1: 8fbfafffd136c1b31bd88ac8fe3f1126769aae87
+SHA256: 9d4582f14f71df7a48101ee05297a57a898654ead55ef10ca4d73e254151b1e8
+SHA512: f6ce5ce03ad916e22a2490e85cbc148a659f84571c9b341902a03ff58424b1dedb657618048aa917f106bb9f56a09003f9e83fd57a86171788d04a3da0ed97f6
+
+Package: libtiff
+Architecture: aarch64
+Installed-Size: 6644
+Maintainer: @termux
+Version: 4.7.2
+Homepage: http://www.simplesystems.org/libtiff/
+Breaks: libtiff-dev
+Depends: libc++, libjpeg-turbo, liblzma, zlib, zstd
+Replaces: libtiff-dev
+Description: Support for the Tag Image File Format (TIFF) for storing image data
+Filename: dists/termux/extras/binary-aarch64/libtiff_4.7.2_aarch64.deb
+Size: 869912
+MD5Sum: 17f0cfe5532dfac39fd7bcf47064bc1f
+SHA1: ebb52f36f89f7540a34569f09099a911e9fa73d9
+SHA256: 998c583d65d7d42dcb177548a218545661f02385a51bb9f5c24f0da4fd046574
+SHA512: ab3fc6d4f98d15d5c81f37ca74bd330083aed56ba44402890b0e122c02894c477948d2b4eeb5e2d2f289e7160f53c6b8a77f323556dac19a9e82968196bdbca2
+
+Package: libtwolame
+Architecture: aarch64
+Installed-Size: 268
+Maintainer: @termux
+Version: 0.4.0-1
+Homepage: https://www.twolame.org/
+Description: An optimised MPEG Audio Layer 2 (MP2) encoder
+Filename: dists/termux/extras/binary-aarch64/libtwolame_0.4.0-1_aarch64.deb
+Size: 60376
+MD5Sum: 7da9ef0981491ca8c9a4cd940c4766fd
+SHA1: cea0648fc11d310c606bd77393e892c7744623ea
+SHA256: bb69c983d340dfc4ff05384a19fcab6d1d92fe41f8befeed7a754645df5c23f4
+SHA512: caca6200b1987201173d2ea8d0219c75ca9082d42e1df47613ef5af518eb227ae049563680a098ecb7ab86ae02e19f372fe0ab2655fd27872e70ffb6e74cb112
+
+Package: libudfread
+Architecture: aarch64
+Installed-Size: 104
+Maintainer: @termux
+Version: 1.2.0
+Homepage: https://code.videolan.org/videolan/libudfread/
+Description: A library for reading UDF
+Filename: dists/termux/extras/binary-aarch64/libudfread_1.2.0_aarch64.deb
+Size: 15072
+MD5Sum: 37a2fa87176862ff2b02ec9dbfeb932e
+SHA1: 367094d75370afd4b6d1544f3d37871490e94250
+SHA256: 61a7e02c30ae61f9cbe46bf8cefa8e361a16b29010a07cacb43513ff533df81c
+SHA512: 59a18f44403b2ad89bcb0c9f0055c8a6e8359318704fef41c1a9275c6a0cbe3697ce5d46d1ac77e9cbc240675d2b08e79630d7c50af69bbcf65bdbeb7b148ff9
+
+Package: libv4l
+Architecture: aarch64
+Installed-Size: 400
+Maintainer: @termux
+Version: 1.24.1-2
+Homepage: https://git.linuxtv.org/v4l-utils.git
+Depends: libandroid-execinfo, libandroid-glob, libjpeg-turbo
+Description: Linux libraries to handle media devices
+Filename: dists/termux/extras/binary-aarch64/libv4l_1.24.1-2_aarch64.deb
+Size: 93356
+MD5Sum: 662f7b0295eea8b09c9ddb76490a9867
+SHA1: 037f8f7d8ed8c68e023db38ee779caa39feb6cd2
+SHA256: 11d0753f325dd6b5df28e7aa95dc28d69b3a81d9ba0c0bff85f4d04b80a61b64
+SHA512: 5aeff026dbf16aeecdc23494c7e060b1d344460258975d1f044a091881880d52793f97a4988fd51e4dd4d1f7e3f0a0dbc9aff4c88bd7834cbec1c4e8b1eb209d
+
+Package: libvidstab
+Architecture: aarch64
+Installed-Size: 1004
+Maintainer: @termux
+Version: 1.1.1-3
+Homepage: https://github.com/georgmartius/vid.stab
+Description: video stabilization library
+Filename: dists/termux/extras/binary-aarch64/libvidstab_1.1.1-3_aarch64.deb
+Size: 259744
+MD5Sum: a34fcc52111f4fa22f378b942d498e00
+SHA1: 480be64f21119e1bd6142d9fffeb2908540ac763
+SHA256: 4611cb90ee015b02bf69b5da9031aff64ae1ec11589986e58e37ea6dfe6f4cd4
+SHA512: 364a350bf45020e5fe5e1d72b8813b89f5a65acea24c999e8a3fe59da130826c56b310858c17719c1d02c968f2921f1aa286afb25d1e9686f862163b6ee53426
+
+Package: libvmaf
+Architecture: aarch64
+Installed-Size: 1888
+Maintainer: @termux
+Version: 3.2.0-1
+Homepage: https://github.com/Netflix/vmaf
+Depends: libc++
+Description: A perceptual video quality assessment algorithm developed by Netflix
+Filename: dists/termux/extras/binary-aarch64/libvmaf_3.2.0-1_aarch64.deb
+Size: 190648
+MD5Sum: 5c7459546a6a3a9bbaf3afc61caa2adf
+SHA1: 2c05a560a7472770dbfe378b139a0e14339398f8
+SHA256: a94f2338b1193603ba8ecd6cddbb29b85b0b3c0b4e35bc16ceacb18309672a22
+SHA512: 4e1e27789288008affc5b88d9af8b2868116250db3b31ea84f9754465052a6b1af50bd44a63ce826c37951838e1a1517e80f9f2dd241801cbb86867ec3e2958a
+
+Package: libvo-amrwbenc
+Architecture: aarch64
+Installed-Size: 160
+Maintainer: @termux
+Version: 0.1.3-2
+Homepage: https://sourceforge.net/projects/opencore-amr/
+Description: VisualOn AMR-WB encoder library
+Filename: dists/termux/extras/binary-aarch64/libvo-amrwbenc_0.1.3-2_aarch64.deb
+Size: 52344
+MD5Sum: b043a41982ecd6bf534d5e25ed5475a2
+SHA1: 55057a53a82722b162faa41498478c419301486b
+SHA256: aa913ca492246ed1e6ce57a3c52fe856c323cbb6e8dbdb6904b80214551f6e00
+SHA512: 34ed9cac0166f8497b97bc7fe95afbef7cbf9460d26927daafd2ab864f24c2fa4c4ca2e7ca543bc331e90d80ef4dcab1b452a9c8d92d1ae319529b891f109c1b
+
+Package: libvpx
+Architecture: aarch64
+Installed-Size: 2452
+Maintainer: @termux
+Version: 1:1.17.0
+Homepage: https://www.webmproject.org
+Breaks: libvpx-dev
+Depends: libc++
+Replaces: libvpx-dev
+Description: VP8 & VP9 Codec SDK
+Filename: dists/termux/extras/binary-aarch64/libvpx_1%3a1.17.0_aarch64.deb
+Size: 869952
+MD5Sum: fb0af8595f9e423558977a63b1f3b782
+SHA1: 86ca81795eb3547a6219f5774a641a2779224921
+SHA256: 1dbc5be0610c9da58732f480c7a27dbb32cf72a472e88c6c0993bdc0feeae00a
+SHA512: 5f2be2ba0df7e6902688043dff000e893c275c92954af324332b207fb5c39139f089355794bc63cd2c2a289ba650463834d307402d3d828c9efc9952643edc73
+
+Package: libwayland
+Architecture: aarch64
+Installed-Size: 972
+Maintainer: @termux
+Version: 1.25.0-1
+Homepage: https://wayland.freedesktop.org/
+Depends: libandroid-support, libexpat, libffi, libxml2
+Description: Wayland protocol library
+Filename: dists/termux/extras/binary-aarch64/libwayland_1.25.0-1_aarch64.deb
+Size: 127376
+MD5Sum: eee5bf809db4ae040236e11d6ff81e2b
+SHA1: de0cd81352b92a1c1f1ff5fc22d4bf2fa3c49841
+SHA256: 1f98af1db541027082b57998a6cd62da0c73701d656210c41283f77cccfb3ed6
+SHA512: 999172cf9cdb6bdfa0044bebc64bc7dd4e7ff55fb2e759a1180a5616cf3776174dd7dcd6d69fc916400ec362d8f6146bf65630d7750116c1b6ba7b16f0659fc8
+
+Package: libwebp
+Architecture: aarch64
+Installed-Size: 1260
+Maintainer: @termux
+Version: 1.6.0-rc1-0
+Homepage: https://github.com/webmproject/libwebp
+Breaks: libwebp-dev
+Depends: giflib, libjpeg-turbo, libpng, libtiff, zlib
+Replaces: libwebp-dev
+Description: Library to encode and decode images in WebP format
+Filename: dists/termux/extras/binary-aarch64/libwebp_1.6.0-rc1-0_aarch64.deb
+Size: 329496
+MD5Sum: c9ea486d07a1f76793379f833b80f458
+SHA1: e9bd44f49c283d67a775cd1ec6852899671226f9
+SHA256: 80fa46bec4faad0ccfd969df5acfd501d813ca9d112b5c49f3f91390e987f3a9
+SHA512: ff315a6aafbaa839b910023dbd9693cc94ef42687a8002a00677d2010bb9655c912f23a8e523173c0084367d8336fff3956bbd3f1cd1e9ba0b387d18616f421b
+
+Package: libx264
+Architecture: aarch64
+Installed-Size: 1260
+Maintainer: @termux
+Version: 1:0.164.3191-1
+Homepage: https://www.videolan.org/developers/x264.html
+Breaks: libx264-dev
+Replaces: libx264-dev
+Description: Library for encoding video streams into the H.264/MPEG-4 AVC format
+Filename: dists/termux/extras/binary-aarch64/libx264_1%3a0.164.3191-1_aarch64.deb
+Size: 396540
+MD5Sum: 04fa5821e338294346471c34751d8e1b
+SHA1: 8c21cea8d9917e0d3615adb4410380891fb3167e
+SHA256: fe98852cb06ce1c963a54284179d8cda42af2fa82afcac09f7d81e6de4d9bbc1
+SHA512: 039bd5e3ccf2febb85c39dddfe0f4f55697fba26f3faf2ece8d7bab8515321b4ea39bfd888cd2d3c3af3afebfa65acfb4e8df60becea3986a81fd6160c7ef3c2
+
+Package: libx265
+Architecture: aarch64
+Installed-Size: 9420
+Maintainer: @termux
+Version: 4.3
+Homepage: https://www.x265.org/
+Breaks: libx265-dev
+Depends: libandroid-posix-semaphore, libc++
+Replaces: libx265-dev
+Description: H.265/HEVC video stream encoder library
+Filename: dists/termux/extras/binary-aarch64/libx265_4.3_aarch64.deb
+Size: 1599320
+MD5Sum: 55fb667726db19fa5cd7974e94c27cd9
+SHA1: c2942c4c3a55e5af29aff915e262b011dc6a4761
+SHA256: 8dbfd50ad2ceea5ffa2384f0f4cc16a87cbf56ac83b4861fa4f640d1beb352cd
+SHA512: f7b58b49b001a475728cf8bed6041ff875ddf38ecf0f4d68bea8c697e2d76fba110f36875b3c0a3df160efb123c3f3b5e82921fad1d7946783b7126b7e2735b4
+
+Package: libxfixes
+Architecture: aarch64
+Installed-Size: 104
+Maintainer: @termux
+Version: 6.0.2
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11
+Description: X11 miscellaneous 'fixes' extension library
+Filename: dists/termux/extras/binary-aarch64/libxfixes_6.0.2_aarch64.deb
+Size: 11504
+MD5Sum: d32181c79c2ec0a54cfb7820efd83388
+SHA1: b17eb38c637c2bd0507dfd3d4a832e9a53e4ef0a
+SHA256: d6791716490c45faae8d7fcfa782f93edceef692c79b61c40ef8191c4e546ef1
+SHA512: f4be9869ada0b034e4567f6267506634b89ebc603ddd5b8763b856ff6297ddabb755d9309c1c6d94a3aaba339c5b2114d33664dd560c2911fe0f2a6d0a5f69ad
+
+Package: libxft
+Architecture: aarch64
+Installed-Size: 496
+Maintainer: @termux
+Version: 2.3.9-1
+Homepage: https://xorg.freedesktop.org/
+Depends: fontconfig, freetype, libx11, libxrender
+Description: FreeType-based font drawing library for X
+Filename: dists/termux/extras/binary-aarch64/libxft_2.3.9-1_aarch64.deb
+Size: 47968
+MD5Sum: d6a83dba44351aad28e27f5017903206
+SHA1: cf1272a3aee8c2117b0742725066d01aacc19aaf
+SHA256: 50e13e49e55dc0246a8b2ead0f84679bc674cd09ffc0e3e60e885f6886cbe2fd
+SHA512: 4dbe593863c5f4ebb511508591ea51c822da1e1545905f372dea181cd8e5c2bcea13794d3ae82b90384390d3df4233be72845779fbeffceefd9c8181375b3401
+
+Package: libxshmfence
+Architecture: aarch64
+Installed-Size: 76
+Maintainer: @termux
+Version: 1.3.3-1
+Homepage: https://xorg.freedesktop.org/
+Description: A library that exposes a event API on top of Linux futexes
+Filename: dists/termux/extras/binary-aarch64/libxshmfence_1.3.3-1_aarch64.deb
+Size: 4548
+MD5Sum: b41f05e57d224787283b4742c24643ee
+SHA1: 073eff0ad1794ec164348104dcffab2285643f4c
+SHA256: 7644c2969c2ce4d763785bd2a85eb32ccf8e5ad40228cd92b193f7edb6398d92
+SHA512: 15688ef074fcc78937ab5be0bd48cb43bf671ed1e86706f59c12865131480523d0918e5a884cc7d6c1cada98e04137ce451ae483f97fa4a84b46eb5d3fcd3e17
+
+Package: libxv
+Architecture: aarch64
+Installed-Size: 208
+Maintainer: @termux
+Version: 1.0.13-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxext
+Description: Library for the X Video (Xv) extension to the X Window System
+Filename: dists/termux/extras/binary-aarch64/libxv_1.0.13-1_aarch64.deb
+Size: 31692
+MD5Sum: cb84755bc495ab2d257cba8f0581a904
+SHA1: 59911b7d0c2dadcb09dba41efc8caca3f98f65af
+SHA256: b780f484f05c3e83e694ac819bf62b941473cdf1307fcd48157e3829353b9a00
+SHA512: 81ccd34b6f0c6d8814c51ca645ed5bb1c41e1cfd2069981b2bd44ea626d65b53290042262b4e86fec860754589c68da3099de7c444f464e0a675bfa783420fc0
+
+Package: libxxf86vm
+Architecture: aarch64
+Installed-Size: 192
+Maintainer: @termux
+Version: 1.1.7
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxext
+Description: X11 XFree86 video mode extension library
+Filename: dists/termux/extras/binary-aarch64/libxxf86vm_1.1.7_aarch64.deb
+Size: 13296
+MD5Sum: e27207944ca3b50f756f02b9deb657f7
+SHA1: 4cf41daa7455c826d994804a28b8545afc58b2b8
+SHA256: 95903bec784e1d92954e96a4dd978d66075c0935e41467b7063a30acaf0c77c4
+SHA512: 4039b07b60c733cd3918259b5cff1c0b266fd8c7f951f956d0a1d30f52d1679d9c144ffe7ee844a2d48ae485a18209b8fec65c6659959aac03871cc7913c4655
+
+Package: libzimg
+Architecture: aarch64
+Installed-Size: 576
+Maintainer: @termux
+Version: 3.0.6
+Homepage: https://github.com/sekrit-twc/zimg
+Depends: libc++
+Description: Scaling, colorspace conversion, and dithering library
+Filename: dists/termux/extras/binary-aarch64/libzimg_3.0.6_aarch64.deb
+Size: 139012
+MD5Sum: d96981b7b2b545e2406ecedabb8711ea
+SHA1: fc94fe27685ac1cb856c5491acda1982609bd6df
+SHA256: a776d30cdb5734fa8feb17fb89fe8a67d14d64e491777d9b62b0fd714a9b59e8
+SHA512: 8e23c3483ba36e06ae58e32890f351e0b039b9cd5fa4644044dde80b4427cec5bc8af801fc10f3e58590fff760cf75cecc4a64057722e2886344a70512ecbab3
+
+Package: libzmq
+Architecture: aarch64
+Installed-Size: 1012
+Maintainer: @termux
+Version: 4.3.5-2
+Homepage: https://zeromq.org/
+Breaks: libzmq-dev
+Depends: libc++, libsodium
+Replaces: libzmq-dev
+Description: Fast messaging system built on sockets. C and C++ bindings. aka 0MQ, ZMQ.
+Filename: dists/termux/extras/binary-aarch64/libzmq_4.3.5-2_aarch64.deb
+Size: 320404
+MD5Sum: a397ed042086d9f67170f72007b89009
+SHA1: 7ea02cd8c8ccf95c2a17f4c5c7a597c440afd4c8
+SHA256: 1d59efb56905e79159808c6b656cc768ffcc210012bc2d9b63f23162f65480d2
+SHA512: 003f4969cee6b20cda31fa2c72076c96fa24f502eb5ec20242b761c89454fcb003d8a17a3caa8c61ba457b687c30dd6b9c211437c67aec987eef61a93fa3549a
+
+Package: lua52
+Architecture: aarch64
+Installed-Size: 820
+Maintainer: @termux
+Version: 5.2.4-19
+Homepage: https://www.lua.org
+Breaks: liblua52-dev, liblua52
+Replaces: liblua52-dev, liblua52
+Description: Lua scripting language 5.2.x
+Filename: dists/termux/extras/binary-aarch64/lua52_5.2.4-19_aarch64.deb
+Size: 131584
+MD5Sum: f72c7d393657285d2b70fd5ed80c370a
+SHA1: bc9f98ac15172ae5194cdd05b44c74d46ddf3ac6
+SHA256: 2a2940735dcd3996f595a736c4025bf51c25ac7eb44048cece3a157d90a281b8
+SHA512: 84aa8a3ecc5786687322ff9d63994eb13c13699c07e8884c2fec09fcffb0b37a1cffa337c0a9b6b35a184c8b9617962d158a3abd106b358f981d7fcdb117c986
+
+Package: mesa-vulkan-icd-swrast
+Architecture: aarch64
+Installed-Size: 12968
+Maintainer: @termux
+Version: 26.2.2
+Homepage: https://www.mesa3d.org
+Depends: libandroid-shmem, libc++, libdrm, libllvm (<< 22), libx11, libxcb, libxshmfence, libwayland, ncurses, vulkan-loader-generic, zlib, zstd
+Description: Mesa's Swrast Vulkan ICD
+Filename: dists/termux/extras/binary-aarch64/mesa-vulkan-icd-swrast_26.2.2_aarch64.deb
+Size: 1628760
+MD5Sum: 243646d9f546a5f13bed35f2f7310687
+SHA1: 5141e07c3b17049668df0f1cbd4e00a882b9ccf2
+SHA256: 6f78333ce401f86657513c9b3601ab02a0b18024cc510472a76b0004fc07510e
+SHA512: cba4ee1451aefe08a793f06fb98af275ac6335c2814265d26f077a6ffccb8316b4d3ab8ec2b58ad5d66415672c4b621f0acea5866a23e80387a0e2104eaae53d
+
+Package: mesa
+Architecture: aarch64
+Installed-Size: 18252
+Maintainer: @termux
+Version: 26.2.2
+Homepage: https://www.mesa3d.org
+Breaks: osmesa, osmesa-demos
+Depends: libandroid-shmem, libc++, libdrm, libglvnd, libllvm (<< 22), libwayland, libx11, libxext, libxfixes, libxshmfence, libxxf86vm, ncurses, vulkan-loader, zlib, zstd
+Conflicts: libmesa, ndk-sysroot (<= 25b), osmesa
+Replaces: libmesa, osmesa
+Suggests: mesa-dev
+Description: An open-source implementation of the OpenGL specification
+Filename: dists/termux/extras/binary-aarch64/mesa_26.2.2_aarch64.deb
+Size: 3144832
+MD5Sum: 28d87e155b4acef6bb87fcae1d383027
+SHA1: ffaa2d314f28ab7cee769ab8db6606bcd8cd6174
+SHA256: 774ff38fc40bc5c9df38c50d61954674b5f23ba93133592739bd95a9d17af2d5
+SHA512: ce8c821e549403f4cd6e07f22ab49e3c1b2e47324da00f372272839d8b1273bef0cff68a0ee6ddf2c8d75566a72f6e740dce74c6fd93279b022a7db6fa6ed6b3
+
+Package: ocl-icd
+Architecture: aarch64
+Installed-Size: 880
+Maintainer: @termux
+Version: 2.3.5
+Homepage: https://github.com/OCL-dev/ocl-icd
+Description: OpenCL ICD Loader
+Filename: dists/termux/extras/binary-aarch64/ocl-icd_2.3.5_aarch64.deb
+Size: 104028
+MD5Sum: e279dffa4b1842755fc7de9690ec17b6
+SHA1: 184a4d56b54de51fee310627b2f091c320f3e5b1
+SHA256: 2d76ddf09069ad599a4d5b2aee374c58411e1a3b0618b1ca5412467c9fd7b26a
+SHA512: 3df45cdf8b76d3256b31ee3c257ff4f33c648d9e60ec0e87f498c39b19fa83f1cfb0a9c8e55e59a426631158b09bba978ab488e2739bdb41d6fca30113449ebd
+
+Package: openjpeg
+Architecture: aarch64
+Installed-Size: 516
+Maintainer: @termux
+Version: 2.5.4
+Homepage: https://www.openjpeg.org/
+Breaks: openjpeg-dev
+Replaces: openjpeg-dev
+Description: JPEG 2000 image compression library
+Filename: dists/termux/extras/binary-aarch64/openjpeg_2.5.4_aarch64.deb
+Size: 149728
+MD5Sum: 5d8dcb373f90230321ebd4de72c7df04
+SHA1: b4c2899db166103a7cd0331a897020a3127d1c22
+SHA256: 93ad32c8caa0eb8943e2dd86b5c2eaf48a767709a3fa069a5b670d948656c7d8
+SHA512: 39771ace60231e0744403b3584390e899e521bbc46ca0bbefc5bda8850ff12f587f723be646c301c02756000c1d985a7ab7e91fb92c81d3d2948c912338f034f
+
+Package: pango
+Architecture: aarch64
+Installed-Size: 2544
+Maintainer: @termux
+Version: 1.58.2
+Homepage: https://www.gtk.org/docs/architecture/pango
+Breaks: pango-dev
+Depends: fontconfig, freetype, fribidi, glib, harfbuzz, libcairo, libx11, libxft, libxrender
+Replaces: pango-dev
+Description: Library for laying out and rendering text
+Filename: dists/termux/extras/binary-aarch64/pango_1.58.2_aarch64.deb
+Size: 364204
+MD5Sum: b47e6e1b97678aa04bda2258667a4068
+SHA1: dfcbd462f788487df45c72d928d5e2b688709514
+SHA256: 3089e2de505f3aed90b60235af7723bdc6e90bd0dd954bcd8083848a5d9c19e9
+SHA512: 7813da74ecb46f6b947fd95d57eb4e604388377f88f0542a31aec587aefe48eaa613c42c6349ff2d6e417d5505baef79f9654c2db9909ad16c1edbafc6ae728d
+
+Package: python
+Architecture: aarch64
+Installed-Size: 26164
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Version: 3.14.6-1
+Homepage: https://python.org/
+Breaks: python2 (<= 2.7.15), python-dev
+Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libexpat, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib, zstd
+Recommends: python-ensurepip-wheels, python-pip
+Replaces: python-dev
+Provides: python3
+Suggests: python-tkinter
+Description: Python 3 programming language intended to enable clear programs
+Filename: dists/termux/extras/binary-aarch64/python_3.14.6-1_aarch64.deb
+Size: 4816756
+MD5Sum: 9ea9a91930cc0fc9c4437158af75e7ea
+SHA1: 2af26a732338045a1e917ccad974583e2f52f39f
+SHA256: 3166e56c2b6c03fff41191fbb9d736302978e7c484702814d9f6dc99dd6006bd
+SHA512: 20359f9d049de5b0fe308614011da8225bba1bfbf4b1450c772c3d6fca7b9d92e98d6dd5ad50b41c153ba47013e8a0239220b21d3ba0230cec2977895e9a4878
+
+Package: rubberband
+Architecture: aarch64
+Installed-Size: 1596
+Maintainer: @termux
+Version: 4.0.0-1
+Homepage: https://breakfastquay.com/rubberband/
+Depends: fftw, libc++, libsamplerate, libsndfile
+Description: An audio time-stretching and pitch-shifting library and utility program
+Filename: dists/termux/extras/binary-aarch64/rubberband_4.0.0-1_aarch64.deb
+Size: 205764
+MD5Sum: 9d69efa0dc1b8d10d7b3881ea50cd0f9
+SHA1: b70c318174f5009310efde02e4277eaea0f7283d
+SHA256: 1172030a1e3ed70976114c8ca3eb4da0b82c1714825bd751ac1ada606dbc685a
+SHA512: 8600b3c97da1c3292c7e99fe3035a8d08a3bedfc4a558ed9a03bc8cc936c720c72e5ad26c61e4b63201d26a927c7c5061c701c887a19ef68fe4c83fd80f3302d
+
+Package: samba
+Architecture: aarch64
+Installed-Size: 29056
+Maintainer: @termux
+Version: 4.24.6
+Homepage: https://www.samba.org/
+Depends: krb5, libandroid-execinfo, libandroid-spawn, libbsd, libcap, libcrypt, libgnutls, libiconv, libicu, libpopt, libtalloc, libtasn1, libtirpc, ncurses, openssl, readline, tdb-tools, zlib
+Description: SMB/CIFS fileserver
+Filename: dists/termux/extras/binary-aarch64/samba_4.24.6_aarch64.deb
+Size: 6914320
+MD5Sum: 110841b165c87b6caa9e22d11cb7ebf6
+SHA1: ced1552fcea0fd666e6ab3492292894f22f75060
+SHA256: f6589d14dbf8d18afbf3eae84260d54daf63e31bda1a78c94b11413f39d9815c
+SHA512: 7e8187ae039f8d1c0794ed536ea2dddc7df05bbcec1e4d3b450a072604c5982550d7a7177ae1b8a82fd88ae22cd22ec57fb87ae642fed4c81b9503cb2386fa18
+
+Package: svt-av1
+Architecture: aarch64
+Installed-Size: 4384
+Maintainer: @termux
+Version: 4.2.0
+Homepage: https://gitlab.com/AOMediaCodec/SVT-AV1
+Description: Scalable Video Technology for AV1 (SVT-AV1 Encoder and Decoder)
+Filename: dists/termux/extras/binary-aarch64/svt-av1_4.2.0_aarch64.deb
+Size: 1490768
+MD5Sum: df9ba0f56da245a70955dc11412efccd
+SHA1: 5bddccfaad291289c04755b29ec8be6509c30aa4
+SHA256: e1fd576d086e2d870429e3ae16610b24cb1d0c8f9fcf330fa0abba9e867aabdb
+SHA512: 98bdacd88a3b00765259e0bbe38af13608e56a38d771befb393a2e0037abcb8378f09f8e37ca5732f5ecd221549b759e02cb27c4bdd8962f100bdf7a186142ba
+
+Package: taglib
+Architecture: aarch64
+Installed-Size: 2836
+Maintainer: @termux
+Version: 2.3.2
+Homepage: http://taglib.github.io/
+Breaks: taglib-dev
+Depends: libc++, zlib, utf8cpp
+Replaces: taglib-dev
+Description: A Library for reading and editing the meta-data of several popular audio formats.
+Filename: dists/termux/extras/binary-aarch64/taglib_2.3.2_aarch64.deb
+Size: 472392
+MD5Sum: cce36ba2bb5152b0a84bc221080b520f
+SHA1: ef7c758778117ee163362d85adc6e3eba8e29f45
+SHA256: 65581c9e6de48f0b25015a797f724eaf41b86e2e401d94c40e554ceaa6d5e36f
+SHA512: 4169f4a04e026ca4a114e082fed202b2f848ebc6c609f7de97a8ceee993091235922038314165e6e68f0b0e1e77247ebf7c50c52bfbabdfe4357ec3df890f9cb
+
+Package: tdb-tools
+Architecture: aarch64
+Installed-Size: 104
+Maintainer: @termux
+Version: 1.4.15-1
+Homepage: https://tdb.samba.org/
+Depends: libtdb (= 1.4.15-1)
+Description: Tools for TDB
+Filename: dists/termux/extras/binary-aarch64/tdb-tools_1.4.15-1_aarch64.deb
+Size: 17764
+MD5Sum: 0f8a45b81f6e39c13ef14182e6cd465e
+SHA1: 30a9846231f101c194417ea5eb61904b5dd69670
+SHA256: d0ff5bb03608818fe31c67822e445fe0e7df01797df2d8914b4127976d03933f
+SHA512: 5c830252bb1fa78446e74ace660caa974b8ad5b57c452d741f6a774fb9d525fe179f3d7e131f9796cf9d0d85318ac26d6c9c0424c87be44b0c17a2e35da7f080
+
+Package: vlc
+Architecture: aarch64
+Installed-Size: 12140
+Maintainer: @termux
+Version: 3.0.23-5
+Homepage: https://www.videolan.org/
+Depends: libchromaprint, dbus, ffmpeg, fluidsynth, fontconfig, freetype, fribidi, glib, gst-plugins-base, gstreamer, harfbuzz, liba52, libandroid-shmem, libandroid-spawn, libaom, libarchive, libass, libbluray, libc++, libcaca, libcairo, libcddb, libdav1d, libdvbpsi, libdvdnav, libdvdread, libebml, libflac, libgcrypt, libgnutls, libgpg-error, libiconv, libidn, libjpeg-turbo, lua52, libmad, libmatroska, libmpeg2, libnfs, libogg, libopus, libpng, librsvg, libsecret, libsoxr, libssh2, libtheora, libtwolame, libvorbis, libvpx, libx11, libx264, libx265, libxcb, libxml2, libmpg123, ncurses, opengl, pulseaudio, samba, taglib, zlib
+Description: A popular libre and open source media player and multimedia engine
+Filename: dists/termux/extras/binary-aarch64/vlc_3.0.23-5_aarch64.deb
+Size: 2632984
+MD5Sum: 5f66670e685ca72c13c2ad024187aede
+SHA1: cb0fd05cc610631c347d09ffaabf64a909a96d94
+SHA256: b3a20bb3147c82d0b4bb1fa56501f977383b628a315720a0fc44ee9e9d66119a
+SHA512: 88ed85e85d6e290bb3e171812adf933ca1dc82f6d94436ed20a45af51d23ef864c92009db5aa1f78271edca72574f5c1823343b2452154a1da7fe32c37177ae2
+
+Package: vulkan-loader-generic
+Architecture: aarch64
+Installed-Size: 732
+Maintainer: @termux
+Version: 1.4.362
+Homepage: https://github.com/KhronosGroup/Vulkan-Loader
+Conflicts: vulkan-loader-android
+Recommends: vulkan-icd
+Provides: vulkan-loader-android
+Description: Vulkan Loader
+Filename: dists/termux/extras/binary-aarch64/vulkan-loader-generic_1.4.362_aarch64.deb
+Size: 153104
+MD5Sum: 4190e94b9ac7e91aad94c86729f0a60e
+SHA1: 61c5e4242db3f2ccea416326b6c27c3abf8f026d
+SHA256: f830c374fae2b3d421de401185e4171ff52b706701a1d9e19ab17281a84893ac
+SHA512: 85d4478f382addcd00a2f9880d28f2cfce6f2da93c1a57e48dc6e795d9265957e4eea447d3374694b7348922e9173f01d019d3ab8315a0bc0828f12f06e83c2e
+
+Package: xvidcore
+Architecture: aarch64
+Installed-Size: 408
+Maintainer: @termux
+Version: 1.3.7-1
+Homepage: https://www.xvid.com/
+Breaks: xvidcore-dev
+Replaces: xvidcore-dev
+Description: High performance and high quality MPEG-4 library
+Filename: dists/termux/extras/binary-aarch64/xvidcore_1.3.7-1_aarch64.deb
+Size: 128616
+MD5Sum: c9a9e292c86553fb8a9b75899905b8c3
+SHA1: c2a95018f77a634866aa20885a07f5f1decfebae
+SHA256: 2f358b11fd750935b43ac19f09bb7c4228e007079426e0b73ee8bae1ddf26fc1
+SHA512: 6cdc9a9953885c1762cd2bc9f7ee2c43dd0b7d62bd37bfbe65675e1d07a31656a69b423599f612717035be7f6ee3e55ceb05b3eaf9302448750ad897ed74afe3
+
