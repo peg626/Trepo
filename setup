@@ -1,5 +1,33 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
+echo "🚀 Atualizando Trepo..."
+echo ""
+
+echo "📁 Criando estrutura do repositório..."
+mkdir -p dists/stable/main/binary-aarch64
+
+echo "📦 Gerando índice dos pacotes..."
+dpkg-scanpackages packages /dev/null > dists/stable/main/binary-aarch64/Packages
+
+echo "🗜️ Comprimindo Packages..."
+rm -f dists/stable/main/binary-aarch64/Packages.xz
+xz -9 -k dists/stable/main/binary-aarch64/Packages
+
+echo ""
+echo "✅ Índice atualizado!"
+echo "📊 Pacotes encontrados:"
+grep -c '^Package:' dists/stable/main/binary-aarch64/Packages
+
+echo ""
+echo "📤 Enviando para o GitHub..."
+
+git add .
+git commit -m "Updated"
+git push
+
+echo ""
+echo "🎉 Trepo atualizado com sucesso!"#!/data/data/com.termux/files/usr/bin/bash
+
 set -e
 
 echo "🔄 Gerando índice do Trepo..."
