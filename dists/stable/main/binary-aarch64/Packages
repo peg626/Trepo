@@ -29,6 +29,22 @@ SHA256: 50a4d1238564a49985d398061ef61a0020348ddc84bd296e6450c5f0bdca2435
 Homepage: http://savannah.nongnu.org/projects/attr/
 Description: Utilities for manipulating filesystem extended attributes
 
+Package: c-ares
+Version: 1.34.8
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1104
+Depends: resolv-conf
+Breaks: c-ares-dev
+Replaces: c-ares-dev
+Filename: packages/c-ares_1.34.8_aarch64.deb
+Size: 194924
+MD5sum: 54d26499dec15a489417a944803e9cc7
+SHA1: d1c8fa166f1501a8ee787b3f21cc4167b48b6414
+SHA256: 7681fc23e822d7988ba8b2adf3468f93ae68f724dda365cff1385096a9fa87e6
+Homepage: https://c-ares.org/
+Description: Library for asynchronous DNS requests (including name resolves)
+
 Package: chafa
 Version: 1.18.2-1
 Architecture: aarch64
@@ -2009,6 +2025,40 @@ SHA1: cea8cda1f38a99657ae240b42d408e1906ae00e6
 SHA256: 554e79783e047f593ae29955c0da4c47bb6bd8cdb7582f72619767cef4d284f0
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs
+
+Package: nodejs
+Version: 26.4.0-1
+Architecture: aarch64
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Installed-Size: 50488
+Depends: libc++, openssl, c-ares, libicu, libsqlite, zlib, libffi
+Recommends: npm
+Suggests: clang, make, pkg-config, python
+Conflicts: nodejs-lts, nodejs-current
+Breaks: nodejs-dev
+Replaces: nodejs-current, nodejs-dev
+Filename: packages/nodejs_26.4.0-1_aarch64.deb
+Size: 10349280
+MD5sum: cd42e62fe4902eebe4b1fe452945dfdc
+SHA1: 64f2ec32e846bbf941c10f4653a0103f7d664413
+SHA256: eaf3ed8a6e4b72ebaa8c2cb3bad778c577cdf9ea87ca91761213d8a3940fc090
+Homepage: https://nodejs.org/
+Description: Open Source, cross-platform JavaScript runtime environment
+
+Package: npm
+Version: 11.19.1
+Architecture: all
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Installed-Size: 18228
+Depends: nodejs | nodejs-lts
+Conflicts: nodejs (<= 25.3.0), nodejs-lts (<= 24.13.0)
+Filename: packages/npm_11.19.1_all.deb
+Size: 2024972
+MD5sum: e9c1432420a0092d14a59efa25070c84
+SHA1: 87bc8f2067f70e70f93e3bfea85d135b43b44efa
+SHA256: bb7a736be3229d28af7986365b0738e19619368d0f12cdd4d34b02962dc8b05c
+Homepage: https://docs.npmjs.com/cli/
+Description: The package manager for JavaScript
 
 Package: ocl-icd
 Version: 2.3.5
