@@ -1,4 +1,24 @@
 #!/data/data/com.termux/files/usr/bin/bash
+
+set -e
+
+echo "🔄 Gerando índice do Trepo..."
+
+cd "$(dirname "$0")"
+
+mkdir -p dists/stable/main/binary-aarch64
+
+dpkg-scanpackages packages /dev/null > dists/stable/main/binary-aarch64/Packages
+
+xz -9 -k -f dists/stable/main/binary-aarch64/Packages
+
+echo "📦 Índice atualizado!"
+
+git add .
+git commit -m "Updated packages"
+git push
+
+echo "🚀 Trepo atualizado!"#!/data/data/com.termux/files/usr/bin/bash
 termux-apt-repo packages repo
 git add .
 git commit -m "Updated"

@@ -1,0 +1,73 @@
+Package: opengl
+Architecture: all
+Installed-Size: 4
+Maintainer: @termux
+Version: 4.5
+Homepage: https://github.com/termux/termux-packages
+Depends: libglvnd, mesa
+Description: A metapackage for OpenGL implementation
+Filename: dists/termux/extras/binary-all/opengl_4.5_all.deb
+Size: 692
+MD5Sum: 29a64ac326c41306d7acff6e794143a8
+SHA1: 5f1f2383f93507be83cc8316d7501779627020cb
+SHA256: dc6db4e3ecc84e31a2ddbd6ed71fe3ca7592a95823a08f099e479ceb77c90d99
+SHA512: 3dc2a56dc44193103ee625ec19903b6f0b52c898ef738485b648e0b2668e433b89760b9da375247eb206e4cc4bb7356e1266bd0413ddba641cf617778d8a7655
+
+Package: ttf-dejavu
+Architecture: all
+Installed-Size: 10108
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Version: 2.37-8
+Homepage: https://dejavu-fonts.github.io/
+Description: Font family based on the Bitstream Vera Fonts with a wider range of characters
+Filename: dists/termux/extras/binary-all/ttf-dejavu_2.37-8_all.deb
+Size: 2468280
+MD5Sum: 53bffcb95d1775cde5da1cd747a1c6a4
+SHA1: e6739b8777f79e9387ed07d002b6c7ab3f0f375b
+SHA256: 3fa9352d528cb19aebcdd2de5d1fb0cb67b201be3ae264207fc1a277d2cfd6da
+SHA512: 74be7e2e4c26e1132cc12eaa25648c70062ba6ca91cebc146ae9ebc9b28de368970cf068fdfe0f21e0b618b926e94df3fbed7f4657f2fc208b298afd65363d8b
+
+Package: utf8cpp
+Architecture: all
+Installed-Size: 144
+Maintainer: @termux
+Version: 1:4.2.0
+Homepage: https://github.com/nemtrif/utfcpp
+Description: UTF8-CPP: UTF-8 with C++ in a Portable Way
+Filename: dists/termux/extras/binary-all/utf8cpp_1%3a4.2.0_all.deb
+Size: 10504
+MD5Sum: 57d96075ad89b9ed20e8a751f6f1f405
+SHA1: a096c1da39acea29b956e4a9175e88c692096044
+SHA256: d2f14c221aa129ec18e8581bf29ebc92c85795208cf14676d8ce3ea053ef3426
+SHA512: 845eeb771530b0e4a2fa8e7c91ffa5cbc9167536d68ed0eb45118cedfd5517868b3016818bff0da2b2de29abf105a2d3ad647becfc48c188d3bb67db26c56eaf
+
+Package: vulkan-icd
+Architecture: all
+Installed-Size: 4
+Maintainer: @termux
+Version: 0.1-1
+Homepage: https://github.com/termux/termux-packages
+Depends: mesa-vulkan-icd-swrast | mesa-vulkan-icd-freedreno | mesa-vulkan-icd-virtio | swiftshader
+Description: A metapackage that provides Vulkan ICDs
+Filename: dists/termux/extras/binary-all/vulkan-icd_0.1-1_all.deb
+Size: 740
+MD5Sum: 1cee54e824c3b2a880268aaea31dd121
+SHA1: fad0c9c96e0b5a139ee64aa1af5a4cea008b0b56
+SHA256: d8d99b23502a3ff5952bc4d1c64375189c6aabce21729a96ccfee64677535329
+SHA512: f16a094ebf3914d07f48e1a4d551be05bf3ab00a8cf0659dc2b21047ba5b047bccc0ffd8d933014223456a43a0acdce9d1c7696091b0bda19a39b7a11d3fbb0d
+
+Package: vulkan-loader
+Architecture: all
+Installed-Size: 4
+Maintainer: @termux
+Version: 0.0.3
+Homepage: https://github.com/termux/termux-packages
+Depends: vulkan-loader-generic | vulkan-loader-android
+Description: A metapackage that provides vulkan loader library
+Filename: dists/termux/extras/binary-all/vulkan-loader_0.0.3_all.deb
+Size: 732
+MD5Sum: 4ed37a25ff663cee61a53c233fe961fd
+SHA1: 74291aa5fb4653871245a6c7a092235702c16b2e
+SHA256: d290a35afb15217b4da0858bb149d6900f92ee25970b5febd6ea4f2c6d29e2be
+SHA512: 47b9403574931154b356b47a65e2c102930203e718bab803f8160c70d92b84705534d48fdaddbec628604e479993406840a208001e7f447d798f275b104cdd3a
+
