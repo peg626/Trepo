@@ -2330,6 +2330,18 @@ SHA256: d0ff5bb03608818fe31c67822e445fe0e7df01797df2d8914b4127976d03933f
 Homepage: https://tdb.samba.org/
 Description: Tools for TDB
 
+Package: tplay
+Version: 1.0.0
+Architecture: all
+Maintainer: Joao
+Depends: python, termux-api
+Filename: packages/tplay.deb
+Size: 1504
+MD5sum: 942c1f9cd24b25d0c0d39680c73131e0
+SHA1: 3f15488b08aa45ddca88098f7388130b5f3db3ff
+SHA256: caa6024440dfb723a12322d9751ed92a60f6323080bf2c2204c79b0e468e241d
+Description: Player de musicas para Termux
+
 Package: ttf-dejavu
 Version: 2.37-8
 Architecture: all
