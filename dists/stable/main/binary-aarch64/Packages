@@ -2350,10 +2350,10 @@ Architecture: all
 Maintainer: Joao
 Depends: python, termux-api
 Filename: packages/tplay.deb
-Size: 2740
-MD5sum: 95ac6008b5b7bfc48813b772d0cd7aab
-SHA1: d55521747921aa9bba159c15814fcdd1948d704c
-SHA256: 97ce38e63d6dffd394c7429f3c24034cce41634db63eecf4134d47637ec6c147
+Size: 2932
+MD5sum: 16fe27bdf6ee0233b663710d326b9712
+SHA1: 13ef1841b3dfa899a4b7ecd0d3f4f2e65194eb24
+SHA256: 38aa493681d8e4d9d30dc36aed41e1a9859617901009c88bdf0bad0adb6eb422
 Description: Player de musicas para Termux
 
 Package: ttf-dejavu
