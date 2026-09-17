@@ -2345,15 +2345,15 @@ Homepage: https://tdb.samba.org/
 Description: Tools for TDB
 
 Package: tplay
-Version: 1.1.3
+Version: 1.1.4
 Architecture: all
 Maintainer: Joao
 Depends: python, termux-api
 Filename: packages/tplay.deb
-Size: 2932
-MD5sum: 44222139a0334df4c47e6d029dd6183b
-SHA1: a3f7874c7574ab69a056beb18ce5e996f88665f5
-SHA256: 52b2ec2c23b1a9260685cafd6debeda968978898557e6b905020a535a1d20c3e
+Size: 3000
+MD5sum: 5ff6752c923c44a9e2f769f14ded3367
+SHA1: 88d858935b2c26e9b8569a851a63761059b022f7
+SHA256: 5d1d7ce96595548cff45fb0ffb751451748b0f92915b98c4fee2459f2fad9c56
 Description: Player de musicas para Termux
 
 Package: ttf-dejavu
