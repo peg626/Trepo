@@ -473,6 +473,18 @@ SHA256: badf2dd1911ac9c759f673b1a3a53b6ceefe848ebd62a5280108f2415938ad3c
 Homepage: https://sourceforge.net/projects/enlightenment/
 Description: Library that does image file loading and saving as well as rendering, manipulation, arbitrary polygon support
 
+Package: install-apk
+Version: 1.0.0
+Architecture: all
+Maintainer: João
+Depends: python, termux-api
+Filename: packages/install-apk.deb
+Size: 1628
+MD5sum: f489eadc952a588a0f19f879115581f0
+SHA1: a692cb0d6fd54f425ca80a4098933682551c6bda
+SHA256: 69a4a11bdd24f6ea5ed6d12be32b67d3335be5c9da42a78b8592069fc39d01d3
+Description: Instalador de APK para Termux
+
 Package: jbig2dec
 Version: 0.20-2
 Architecture: aarch64
