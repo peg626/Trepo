@@ -103,6 +103,19 @@ SHA256: 49afd0d01acb7ff7c9085fdbf6fcb09b82e4779ad4be8ca988671e8e2d15e90b
 Homepage: https://djvu.sourceforge.net/
 Description: Suite to create, manipulate and view DjVu ('déjà vu') documents
 
+Package: dount
+Version: 1.0.0
+Architecture: all
+Maintainer: João
+Depends: python, tplay
+Filename: packages/dount.deb
+Size: 2204
+MD5sum: 7209062614da8e069c07df23a75ab21a
+SHA1: bf92cec88538372f9a4267c85fe2772e076c17ac
+SHA256: 5eceabd79e8cf1a0b7155dd50a45559e8dfd69a3a8bc710e227b740e75f22e25
+Section: misc
+Description: Dount
+
 Package: fd
 Version: 10.5.0
 Architecture: aarch64
