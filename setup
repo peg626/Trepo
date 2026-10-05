@@ -21,7 +21,13 @@ echo ""
 
 #cd ../..
 
-echo ""
+echo "Removendo arquivos anteriores..."
+rm -rf ~/trepo/dists
+rm -rf ~/trepo/dist
+
+echo "Gerando pasta dists"
+termux-apt-repo ~/trepo/packages ~/trepo stable main
+
 echo "✅ Release atualizado!"
 
 echo "📊 Pacotes encontrados:"
