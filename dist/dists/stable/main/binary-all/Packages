@@ -1,0 +1,160 @@
+Package: cowsay
+Architecture: all
+Installed-Size: 276
+Maintainer: @termux
+Version: 3.8.4
+Homepage: https://cowsay.diamonds/
+Depends: perl
+Description: Program which generates ASCII pictures of a cow with a message
+Filename: dists/stable/main/binary-all/cowsay_3.8.4_all.deb
+Size: 15084
+MD5Sum: 7ced7d32cad2fabea4ea7d26641acb8b
+SHA1: 88de61c753f28b573b0dd1df87a72121340467cc
+SHA256: 9527fe6bf96e70b415332b372ca8b71d00903a201346498a50b9a68904c1fc79
+SHA512: 35399148a0dcbab1f7651135daab451726069b882fdffa2a0bfafecfeecef0a06412b895eb33c4d75d4b0621caab2119172ca745ea83f763484d1b7dc08015bb
+
+Package: dount
+Version: 1.0.0
+Architecture: all
+Section: misc
+Maintainer: João
+Depends: python, tplay
+Description: Dount
+Filename: dists/stable/main/binary-all/dount.deb
+Size: 2204
+MD5Sum: 7209062614da8e069c07df23a75ab21a
+SHA1: bf92cec88538372f9a4267c85fe2772e076c17ac
+SHA256: 5eceabd79e8cf1a0b7155dd50a45559e8dfd69a3a8bc710e227b740e75f22e25
+SHA512: 033033213b501130fd2edaea52f0a824748568ac9d44774caf28cace22ea663fb87f4706f0aa08b054817da75129697568212c492f2d53c8f1fe4526ad70c84d
+
+Package: install-apk
+Version: 1.0.0
+Architecture: all
+Depends: python, termux-api
+Maintainer: João
+Description: Instalador de APK para Termux
+Filename: dists/stable/main/binary-all/install-apk.deb
+Size: 1636
+MD5Sum: 04126055e9a966f2c37086f700f7d7a0
+SHA1: 74d85e8e86a849cc73dde7187c1b95cb1ae7c501
+SHA256: 22d97c6327d17f0498f65d80e0baab34777a8596b679f415d82145d96e51e874
+SHA512: 59ddb1ccfbfc4b202910013bcf245a69c714c23fa676eb23d5bca8ae8e2d561c187347e73ade1237dd27280ee2d4f97a8b7b371d74baed6bfb1f502178e52b17
+
+Package: npm
+Architecture: all
+Installed-Size: 18228
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Version: 11.19.1
+Homepage: https://docs.npmjs.com/cli/
+Depends: nodejs | nodejs-lts
+Conflicts: nodejs (<= 25.3.0), nodejs-lts (<= 24.13.0)
+Description: The package manager for JavaScript
+Filename: dists/stable/main/binary-all/npm_11.19.1_all.deb
+Size: 2024972
+MD5Sum: e9c1432420a0092d14a59efa25070c84
+SHA1: 87bc8f2067f70e70f93e3bfea85d135b43b44efa
+SHA256: bb7a736be3229d28af7986365b0738e19619368d0f12cdd4d34b02962dc8b05c
+SHA512: f5bad870b182e1d17b9ecf13655e030af0e83def49663e4ddf53023982eb3354d4d017ca0fb4fa70bd5be2236194bb1743fe81342b9d98162b2d1805af86d621
+
+Package: opengl
+Architecture: all
+Installed-Size: 4
+Maintainer: @termux
+Version: 4.5
+Homepage: https://github.com/termux/termux-packages
+Depends: libglvnd, mesa
+Description: A metapackage for OpenGL implementation
+Filename: dists/stable/main/binary-all/opengl_4.5_all.deb
+Size: 692
+MD5Sum: 29a64ac326c41306d7acff6e794143a8
+SHA1: 5f1f2383f93507be83cc8316d7501779627020cb
+SHA256: dc6db4e3ecc84e31a2ddbd6ed71fe3ca7592a95823a08f099e479ceb77c90d99
+SHA512: 3dc2a56dc44193103ee625ec19903b6f0b52c898ef738485b648e0b2668e433b89760b9da375247eb206e4cc4bb7356e1266bd0413ddba641cf617778d8a7655
+
+Package: tplay
+Version: 1.3.0
+Architecture: all
+Maintainer: Joao
+Depends: python, termux-api, vlc
+Description: Player de musicas para Termux
+Filename: dists/stable/main/binary-all/tplay.deb
+Size: 5592
+MD5Sum: 465f6a095ee276506f21b7e242008125
+SHA1: a217d3fae39b7a29cfd9ade03dbe42509dd05d18
+SHA256: db0661918de7a082b5f5fba1e3c9d8c47207ef546bdcd910c9643fa04f95f8ae
+SHA512: 8bdb4bf9c1d2d2fedec3c029179724b0027871831a7c6fc52cb3e3ea7847ea16ebe166f9c85e258178a0a24aa1fd3a4c8795df4fc3bf6c0d517815d8085d7fdd
+
+Package: tree-sitter-parsers
+Architecture: all
+Installed-Size: 4
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 0.27
+Homepage: https://github.com/termux/termux-packages
+Depends: tree-sitter-c, tree-sitter-lua, tree-sitter-markdown, tree-sitter-query, tree-sitter-vimdoc, tree-sitter-vim
+Recommends: tree-sitter-bash, tree-sitter-css, tree-sitter-go, tree-sitter-html, tree-sitter-latex, tree-sitter-java, tree-sitter-javascript, tree-sitter-json, tree-sitter-python, tree-sitter-regex, tree-sitter-rust, tree-sitter-sql, tree-sitter-toml, tree-sitter-xml, tree-sitter-yaml
+Description: A metapackage that provides commonly used treesitter parsers
+Filename: dists/stable/main/binary-all/tree-sitter-parsers_0.27_all.deb
+Size: 840
+MD5Sum: c1792c641bd6960ab1405cdc8d14c20c
+SHA1: 6dfeb215ff727bbd6400b2f7e2cbb8c85d897032
+SHA256: 6e97b36fd67e9922049228d06a258bec63db4c5e7ad74cf7a04aa877c05e1f65
+SHA512: 37f8ba600f8de341219cc907ae505d6fc1da2b06f4086be908929cc1eb856ca58b07017d31993ee5ecf7954fe65a12e767f2e66fa1906abce2052e3ecd2b4da2
+
+Package: ttf-dejavu
+Architecture: all
+Installed-Size: 10108
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Version: 2.37-8
+Homepage: https://dejavu-fonts.github.io/
+Description: Font family based on the Bitstream Vera Fonts with a wider range of characters
+Filename: dists/stable/main/binary-all/ttf-dejavu_2.37-8_all.deb
+Size: 2468280
+MD5Sum: 53bffcb95d1775cde5da1cd747a1c6a4
+SHA1: e6739b8777f79e9387ed07d002b6c7ab3f0f375b
+SHA256: 3fa9352d528cb19aebcdd2de5d1fb0cb67b201be3ae264207fc1a277d2cfd6da
+SHA512: 74be7e2e4c26e1132cc12eaa25648c70062ba6ca91cebc146ae9ebc9b28de368970cf068fdfe0f21e0b618b926e94df3fbed7f4657f2fc208b298afd65363d8b
+
+Package: utf8cpp
+Architecture: all
+Installed-Size: 144
+Maintainer: @termux
+Version: 1:4.2.0
+Homepage: https://github.com/nemtrif/utfcpp
+Description: UTF8-CPP: UTF-8 with C++ in a Portable Way
+Filename: dists/stable/main/binary-all/utf8cpp_1%3a4.2.0_all.deb
+Size: 10504
+MD5Sum: 57d96075ad89b9ed20e8a751f6f1f405
+SHA1: a096c1da39acea29b956e4a9175e88c692096044
+SHA256: d2f14c221aa129ec18e8581bf29ebc92c85795208cf14676d8ce3ea053ef3426
+SHA512: 845eeb771530b0e4a2fa8e7c91ffa5cbc9167536d68ed0eb45118cedfd5517868b3016818bff0da2b2de29abf105a2d3ad647becfc48c188d3bb67db26c56eaf
+
+Package: vulkan-icd
+Architecture: all
+Installed-Size: 4
+Maintainer: @termux
+Version: 0.1-1
+Homepage: https://github.com/termux/termux-packages
+Depends: mesa-vulkan-icd-swrast | mesa-vulkan-icd-freedreno | mesa-vulkan-icd-virtio | swiftshader
+Description: A metapackage that provides Vulkan ICDs
+Filename: dists/stable/main/binary-all/vulkan-icd_0.1-1_all.deb
+Size: 740
+MD5Sum: 1cee54e824c3b2a880268aaea31dd121
+SHA1: fad0c9c96e0b5a139ee64aa1af5a4cea008b0b56
+SHA256: d8d99b23502a3ff5952bc4d1c64375189c6aabce21729a96ccfee64677535329
+SHA512: f16a094ebf3914d07f48e1a4d551be05bf3ab00a8cf0659dc2b21047ba5b047bccc0ffd8d933014223456a43a0acdce9d1c7696091b0bda19a39b7a11d3fbb0d
+
+Package: vulkan-loader
+Architecture: all
+Installed-Size: 4
+Maintainer: @termux
+Version: 0.0.3
+Homepage: https://github.com/termux/termux-packages
+Depends: vulkan-loader-generic | vulkan-loader-android
+Description: A metapackage that provides vulkan loader library
+Filename: dists/stable/main/binary-all/vulkan-loader_0.0.3_all.deb
+Size: 732
+MD5Sum: 4ed37a25ff663cee61a53c233fe961fd
+SHA1: 74291aa5fb4653871245a6c7a092235702c16b2e
+SHA256: d290a35afb15217b4da0858bb149d6900f92ee25970b5febd6ea4f2c6d29e2be
+SHA512: 47b9403574931154b356b47a65e2c102930203e718bab803f8160c70d92b84705534d48fdaddbec628604e479993406840a208001e7f447d798f275b104cdd3a
+

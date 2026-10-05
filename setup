@@ -3,29 +3,29 @@
 echo "🚀 Atualizando Trepo..."
 echo ""
 
-echo "📁 Criando estrutura..."
-mkdir -p dists/stable/main/binary-aarch64
+#echo "📁 Criando estrutura..."
+#mkdir -p dists/stable/main/binary-aarch64
 
-echo "📦 Gerando Packages..."
-dpkg-scanpackages packages /dev/null > dists/stable/main/binary-aarch64/Packages
+#echo "📦 Gerando Packages..."
+#dpkg-scanpackages packages /dev/null > dists/stable/main/binary-aarch64/Packages
 
-echo "🗜️ Gerando Packages.xz..."
-rm -f dists/stable/main/binary-aarch64/Packages.xz
-xz -9 -k dists/stable/main/binary-aarch64/Packages
+#echo "🗜️ Gerando Packages.xz..."
+#rm -f dists/stable/main/binary-aarch64/Packages.xz
+#xz -9 -k dists/stable/main/binary-aarch64/Packages
 
-echo "📝 Gerando Release..."
+#echo "📝 Gerando Release..."
 
-cd dists/stable
+#cd dists/stable
 
-apt-ftparchive release . > Release
+#apt-ftparchive release . > Release
 
-cd ../..
+#cd ../..
 
 echo ""
 echo "✅ Release atualizado!"
 
 echo "📊 Pacotes encontrados:"
-grep -c '^Package:' dists/stable/main/binary-aarch64/Packages
+#grep -c '^Package:' dists/stable/main/binary-aarch64/Packages
 
 echo ""
 echo "📤 Enviando para o GitHub..."
